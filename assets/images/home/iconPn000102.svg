@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.86" height="48" viewBox="0 0 32.86 48">
+  <g id="iconPn000102" transform="translate(-11199.338 831)">
+    <g id="Path_125180" data-name="Path 125180" transform="translate(11224 -807)" fill="none">
+      <path d="M0,9.944,8,0V24H0Z" stroke="none"/>
+      <path d="M 6 5.676492691040039 L 2 10.64832305908203 L 2 22 L 6 22 L 6 5.676492691040039 M 8 0 L 8 24 L 0 24 L 0 9.943659782409668 L 8 0 Z" stroke="none" fill="#3fc298"/>
+    </g>
+    <g id="Path_125182" data-name="Path 125182" transform="translate(11213 -819)" fill="none">
+      <path d="M10.2,4.1h9L8,24H-1Z" stroke="none"/>
+      <path d="M 11.36773109436035 6.09912109375 L 2.420293807983398 22 L 6.830511093139648 22 L 15.7779483795166 6.09912109375 L 11.36773109436035 6.09912109375 M 10.19824123382568 4.09912109375 L 19.19824028015137 4.09912109375 L 8.000000953674316 24 L -0.9999980926513672 24 L 10.19824123382568 4.09912109375 Z" stroke="none" fill="#004a4d"/>
+    </g>
+    <g id="Path_125183" data-name="Path 125183" transform="translate(11201 -819)" fill="none">
+      <path d="M7.043,4.1H-1.662L9,22.451l4.722-7.71Z" stroke="none"/>
+      <path d="M 1.813023567199707 6.099119186401367 L 9.046158790588379 18.54811668395996 L 11.36947441101074 14.75440979003906 L 5.936968326568604 6.099119186401367 L 1.813023567199707 6.099119186401367 M -1.662106513977051 4.099119186401367 L 7.042973518371582 4.099119186401367 L 13.72265338897705 14.74145889282227 L 9.000973701477051 22.45141792297363 L -1.662106513977051 4.099119186401367 Z" stroke="none" fill="#004a4d"/>
+    </g>
+    <g id="Path_125181" data-name="Path 125181" transform="translate(11200 -807)" fill="none">
+      <path d="M8,9.944,0,0V24H8Z" stroke="none"/>
+      <path d="M 2 5.676492691040039 L 2 22 L 6 22 L 6 10.64832305908203 L 2 5.676492691040039 M 0 0 L 8 9.943659782409668 L 8 24 L 0 24 L 0 0 Z" stroke="none" fill="#3fc298"/>
+    </g>
+    <g id="Ellipse_88" data-name="Ellipse 88" transform="translate(11208 -831)" fill="none" stroke="#3fc298" stroke-width="2">
+      <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+      <circle cx="7.5" cy="7.5" r="6.5" fill="none"/>
+    </g>
+  </g>
+</svg>

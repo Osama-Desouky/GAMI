@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!--  Font Awesome CSS -->
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <!--  fancybox CSS -->
+    <link rel="stylesheet" href="../assets/css/fancybox.css">
+    <!--  swiper CSS -->
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="../assets/css/styleRTL.css">
+    
+    <title>GAMI</title>
+  </head>
+  <body>
+
+
+    <!-- AO start layOut -->
+    <div class="Layout"> 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-9 col-md-9-cum">
+          <div class="mainContent">
+            <!-- start menu -->
+            <div class="customMenu">
+              <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#"> 
+                    <img src="../assets/images/home/menuLogo.svg" alt="">
+                  </a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mobile_nav"
+                    aria-controls="mobile_nav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mobile_nav">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-md-right"></ul>
+                    <ul class="navbar-nav navbar-light">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">الرئيسية</a>
+                      </li>
+                      <!--========-->
+                      <li class="nav-item dropdown megamenu-li dmenu">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href=""
+                          id="dropdown01"
+                          data-bs-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          >مجتمعنا</a
+                        >
+                        <div
+                          class="dropdown-menu megamenu sm-menu"
+                          aria-labelledby="dropdown01"
+                        >
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-sm-6 col-lg-3">
+                                <a class="dropdown-item subMenu" href="#">الفعاليات الداخلية</a>
+                                <a class="dropdown-item subMenu" href="#">القطاعات</a>
+                              </div>
+                              <div class="col-sm-6 col-lg-3">
+                                <a class="dropdown-item subMenu" href="#">دليل الموظفين</a>
+                                <a class="dropdown-item subMenu" href="#">المنضمين حديثا لعائلة الهيئة</a>
+                              </div>
+                              <div class="col-sm-6 col-lg-3">
+                                <a class="dropdown-item subMenu" href="#">مركز المعرفة</a>
+                                <a class="dropdown-item subMenu" href="#">تطوير المواهب</a>
+                              </div>
+                              <div class="col-sm-6 col-lg-3">
+                                <a class="dropdown-item subMenu" href="#">البرنامج التعريفي بالموظف الجديد</a>
+                                <a class="dropdown-item subMenu" href="#">إدارة المخاطر المؤسسية</a>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--=========-->
+                      <li class="nav-item">
+                        <a class="nav-link" href="#!">الخدمات الالكترونية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#!" >أخبار الهيئة</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#!">المركز الإعلامي</a>
+                      </li>
+                      <li class="nav-item changeLang">
+                        <a class="nav-link" href="#!">En</a>
+                      </li>
+                      <li class="nav-item sreachMenu">
+                        <a class="nav-link btn btn-primary" href="#!" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          <img src="../assets/images/home/searchMenu.svg" alt="">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <!-- end menu -->
+            <div class="modal modalSearch fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <div class="SearchCustom">
+                      <div class="forGroup">
+                        <input
+                          type="text"
+                          class="searchInput"
+                          value=""
+                          placeholder="أدخل كلمة البحث..."
+                        />
+                        <button type="submit" class="searchSubmit">
+                          <img src="../assets/images/home/SearchPopup.svg" alt="" />
+                        </button>
+                      </div>
+                      <div class="boxSloce">
+                        <button
+                        button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                        >
+                          <img src="../assets/images/home/closeSearch.svg" alt="" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End popup search -->
+            <div class="homeBanner">
+              <div class="swiper minSwiper ">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="bannerContent">
+                      <img src="../assets/images/home/Slider1.svg" alt="">
+                      <div class="overlay"></div>
+                      <!-- end img of banner and overlay -->
+                      <h1>تطوير قطاع الصناعات العسكرية في المملكة</h1>
+                      <p>نعمل على تنظيم وترخيص وتطوير قطاع الصناعات العسكرية بهدف توطين ما يزيد عن 50% من إجمالي الإنفاق العسكري بحلول 2030</p>
+                      <div class="actionBanner">
+                        <a href="#!" class="btnBanner">تعرف على المزيد</a>
+                        <a class="payVideo fancyboxVideo"  rel="group11" title="title" href="https://www.youtube.com/embed/ZjxzsZ183mw">
+                          <span>شاهد الفيديو</span>
+                          <img src="../assets/images/home/playVideo.svg" alt="">
+                        </a>
+                      </div>
+                      <!-- end content -->
+                    </div>
+                  </div>
+                   <!-- end slide -->
+                  <div class="swiper-slide">
+                    <div class="bannerContent">
+                      <img src="../assets/images/home/Slider1.svg" alt="">
+                      <div class="overlay"></div>
+                      <!-- end img of banner and overlay -->
+                      <h1>الصناعات العسكرية</h1>
+                      <p>نعمل على تنظيم وترخيص وتطوير قطاع الصناع لعسكري بحلول 2030</p>
+                      <div class="actionBanner">
+                        <a href="#!" class="btnBanner">تعرف على المزيد</a>
+                        <a class="payVideo fancyboxVideo"  rel="group1" title="title" href="https://www.youtube.com/embed/ZjxzsZ183mw">
+                          <span>شاهد الفيديو</span>
+                          <img src="../assets/images/home/playVideo.svg" alt="">
+                        </a>
+                      </div>
+                      <!-- end content -->
+                    </div>
+                  </div>
+                  <!-- end slide -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+            <!-- end banner slider -->
+            <div class="flexRowWarp ">
+              <div class="heading">
+                <h2 class="titleBorder"> الخدمات الالكترونية</h2>
+                <a href="#!" class="readMore">
+                  <span>عرض الكل</span>
+                  <img src="../assets/images/home/aroowMore.svg" alt="">
+                </a>
+              </div>
+              <div class="flexRow">
+                <a href="javascript:;" class="mainBox">
+                  <span class="num">2</span>
+                  <img src="../assets/images/home/iconPn04.svg" alt="">
+                  <h4>الدعم الفني</h4>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn000102.svg" alt="">
+                  <h4>منصة موارد </h4>
+                  <span class="soon">الخدمة ستكون متاحة قريباً</span>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn2.svg" alt="">
+                  <h4>تصاريح الدخول</h4>
+                  <span class="num">3</span>
+                </a>
+                  <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn00402.svg" alt="">
+                  <h4>خدمات النقل والمراسلات</h4>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn0003.svg" alt="">
+                  <h4>طلب قرطاسية</h4>
+                  <span class="num">5</span>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn00602.svg" alt="">
+                  <h4>اشعار قدوم موظف جديد</h4>
+                </a>
+                <!-- end box -->
+
+              </div>
+              <div class="flexRow">
+
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn000200.svg" alt="">
+                  <h4>خدمة الضيافة</h4>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn000300.svg" alt="">
+                  <h4> طلب استضافة موظف
+                   <br> (VISA) خارجي</h4>
+                   <span class="num">3</span>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn000400.svg" alt="">
+                  <h4> طلب طباعة كارت شخصي</h4>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn000500.svg" alt="">
+                  <h4>بطاقات المشاريع</h4>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn000600.svg" alt="">
+                  <h4>تطوير الخدمات</h4>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="mainBox">
+                  <img src="../assets/images/home/iconPn0001.svg" alt="">
+                  <h4>تطبيق الساب</h4>
+                  <span class="soon">الخدمة ستكون متاحة قريباً</span>
+                </a>
+                <!-- end box -->
+              </div>
+            </div>
+            <!-- end row of main box -->
+            <div class="adsSection">
+              <div class="row">
+
+                <div class="col-md-12 col-lg-8">
+                  <div class="heading">
+                    <h2 class="titleBorder">الاعلانات</h2>
+                    <a href="#!" class="readMore">
+                      <span>عرض الكل</span>
+                      <img src="../assets/images/home/aroowMore.svg" alt="">
+                    </a>
+                  </div>
+                  <div class="swiper swiperADS">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <a href="#!" class="ADSBox">
+                          <div class="ADSimg">
+                            <img src="../assets/images/home/ADSImg1.svg" alt="">
+                          </div>
+                          <!-- end img -->
+                          <div class="ADStext">
+                            <div class="dateLocation">
+                              <div class="boxDate">
+                                <img src="../assets/images/home/calendarADS.svg" alt="">
+                                <span>Ramadan 06, 1443</span>
+                              </div>
+                            </div>
+                            <h2>الصناعات العسكرية والتطوير الدفاعي تطلقان "جائزة الابتكار" في مجال الصناعات العسكرية</h2>
+                          </div>
+                          <!-- end text -->
+                        </a>
+                        <!-- end box -->
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#!" class="ADSBox">
+                          <div class="ADSimg">
+                            <img src="../assets/images/home/ADSImg2.svg" alt="">
+                          </div>
+                          <!-- end img -->
+                          <div class="ADStext">
+                            <div class="dateLocation">
+                              <div class="boxDate">
+                                <img src="../assets/images/home/calendarADS.svg" alt="">
+                                <span>Ramadan 06, 1443</span>
+                              </div>
+                            </div>
+                           <h2>معرض الدفاع العالمي يختتم فعالياته مسجِّلاً صفقاتٍ وعقودًا بقيمة 29.7 مليار ريال في نسخته الأولى</h2>
+                          </div>
+                          <!-- end text -->
+                        </a>
+                        <!-- end box -->
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#!" class="ADSBox">
+                          <div class="ADSimg">
+                            <img src="../assets/images/home/ADSImg1.svg" alt="">
+                          </div>
+                          <!-- end img -->
+                          <div class="ADStext">
+                            <div class="dateLocation">
+                              <div class="boxDate">
+                                <img src="../assets/images/home/calendarADS.svg" alt="">
+                                <span>Ramadan 06, 1443</span>
+                              </div>
+                            </div>
+                            <h2>الصناعات العسكرية والتطوير الدفاعي تطلقان "جائزة الابتكار" في مجال الصناعات العسكرية</h2>
+                          </div>
+                          <!-- end text -->
+                        </a>
+                        <!-- end box -->
+                      </div>
+                    </div>
+
+                    <div class="warpper1">
+                      <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <div class="heading">
+                    <h2 class="titleBorder">تصويت</h2>
+                    <a href="#!" class="readMore">
+                      <span>عرض الكل</span>
+                      <img src="../assets/images/home/aroowMore.svg" alt="">
+                    </a>
+                  </div>
+                  <div class="votSection">
+                    <form>
+                      <b class="titleFont18">ما هو رأيك في الخدمات الجديدة لبوابة الهيئة العامة للصناعات العسكرية؟</b>
+                      <div class="pollradioBtnWrapper">
+                          <input type="radio" id="pollradio1" value="option1" class="pollradioBtn" name="pollradio">
+                          <label for="pollradio1">ممتازة</label>
+
+                          <input type="radio" id="pollradio2" value="option2" class="pollradioBtn" name="pollradio">
+                          <label for="pollradio2">جيدة جداً</label>
+
+                          <input type="radio" id="pollradio3" value="option3" class="pollradioBtn" name="pollradio">
+                          <label for="pollradio3">جيدة</label>
+
+                          <input type="radio" id="pollradio4" value="option4" class="pollradioBtn" name="pollradio">
+                          <label for="pollradio4">ضعيفة</label>
+                      </div>
+                      <div class="pollBtnWrapper">
+                          <a class="btn btnWhit" href="#">تصويت</a>
+                          <a class="btn btnwhiteBrdr" href="#"> النتائج</a>
+
+                      </div>
+                  </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end ADS -->
+            <!-- 
+              <a href="#!" class="activitiesBX ">
+                <div class="ADSimg">
+                  <img src="../assets/images/home/activitiesImg1.png" alt="">
+                </div>
+     
+                <div class="ADStext">
+                 <h2>معرض الدفاع العالمي يختتم فعالياته مسجِّلاً صفقاتٍ وعقودًا بقيمة 29.7 مليار ريال في نسخته الأولى</h2>
+                </div>
+ 
+              </a>
+             -->
+
+            <!-- end box -->
+            <div class="activities">
+              <div class="heading">
+                <h2 class="titleBorder">فعاليات الهيئة</h2>
+                <a href="#!" class="readMore">
+                  <span>عرض الكل</span>
+                  <img src="../assets/images/home/aroowMore.svg" alt="">
+                </a>
+              </div>
+              <div class="swiper swiperActivities">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <a href="../assets/images/home/Slider1.svg" rel="group01" class="activitiesBX fancybox">
+                      <div class="ADSimg">
+                        <img src="../assets/images/home/activitiesImg1.png" alt="">
+                      </div>
+                      <!-- end img -->
+                      <div class="ADStext">
+                       <h2>مشاركة المملكة بجناح سعودي في معرض فارنبرة الدولي للطيران</h2>
+                      </div>
+                      <!-- end text -->
+                      <!-- if there is more one image -->
+                      <!-- <div class="imagesGallery">
+                        <a class="fancybox" rel="group01" title="222" href="../assets/images/home/Slider1.svg"></a>
+                      </div> -->
+                      <!-- end imagesGallery -->
+                    </a>
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="../assets/images/home/Slider1.svg" rel="group02" class="activitiesBX fancybox">
+                      <div class="ADSimg">
+                        <img src="../assets/images/home/activitiesImg2.png" alt="">
+                      </div>
+                      <!-- end img -->
+                      <div class="ADStext">
+                       <h2>مشاركة المملكة في معرض فارنبرة الدولي للطيران بالمملكة المتحدة</h2>
+                      </div>
+                      <!-- end text -->
+                      <!-- if there is more one image -->
+                      <!-- <div class="imagesGallery">
+                        <a class="fancybox" rel="group02" title="222" href="../assets/images/home/Slider1.svg"></a>
+                      </div> -->
+                      <!-- end imagesGallery -->
+                    </a>
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="../assets/images/home/Slider1.svg" rel="group03" class="activitiesBX fancybox">
+                      <div class="ADSimg">
+                        <img src="../assets/images/home/activitiesImg3.png" alt="">
+                      </div>
+                      <!-- end img -->
+                      <div class="ADStext">
+                       <h2>اختتام فعاليات معرض الدفاع العالمي وصفقاتٍ بقيمة 29.7 مليار ريال</h2>
+                      </div>
+                      <!-- end text -->
+                      <!-- if there is more one image -->
+                      <!-- <div class="imagesGallery">
+                        <a class="fancybox" rel="group03" title="222" href="../assets/images/home/Slider1.svg"></a>
+                      </div> -->
+                      <!-- end imagesGallery -->
+                    </a>
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="../assets/images/home/Slider1.svg" rel="group04" class="activitiesBX fancybox">
+                      <div class="ADSimg">
+                        <img src="../assets/images/home/activitiesImg4.png" alt="">
+                      </div>
+                      <!-- end img -->
+                      <div class="ADStext">
+                       <h2>الصناعات العسكرية والتطوير الدفاعي تطلقان "جائزة الابتكار"</h2>
+                      </div>
+                      <!-- end text -->
+                    </a>
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="../assets/images/home/Slider1.svg" rel="group05" class="activitiesBX fancybox">
+                      <div class="ADSimg">
+                        <img src="../assets/images/home/activitiesImg1.png" alt="">
+                      </div>
+                      <!-- end img -->
+                      <div class="ADStext">
+                       <h2>مشاركة المملكة بجناح سعودي في معرض فارنبرة الدولي للطيران</h2>
+                      </div>
+                      <!-- end text -->
+                      <!-- if there is more one image -->
+                      <!-- <div class="imagesGallery">
+                        <a class="fancybox" rel="group01" title="222" href="../assets/images/home/Slider1.svg"></a>
+                      </div> -->
+                      <!-- end imagesGallery -->
+                    </a>
+                  </div>
+                  <!-- end slide -->
+
+                </div>
+              
+                <div class="swiper-pagination"></div>
+              </div>
+              <!-- end swiper -->
+            </div>
+            <!-- end activities -->
+            <div class="NewsEmp">
+              <div class="heading">
+                <h2 class="titleBorder">أخبار الموظفين</h2>
+                <a href="#!" class="readMore">
+                  <span>عرض الكل</span>
+                  <img src="../assets/images/home/aroowMore.svg" alt="">
+                </a>
+              </div>
+              <div class="swiper swiperActivities">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <a href="#!" class="NewsBox2">
+                      <div class="NEmpLogo">
+                        <img src="../assets/images/home/newsIcon1.svg" alt="">
+                        <span>مولود جديد</span>
+                      </div>
+                      <!-- end logo -->
+                      <div class="NEmpText">
+                       <h2>فهد عبد الرحمن البندري</h2>
+                       <p>تهنئة بمناسبة المولود الجديد عبدالله بارك الله فيه وأنبته نباتاً حسنا</p>
+                      </div>
+                      <!-- end text -->
+                    </a>
+                    <!-- end box -->
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="#!" class="NewsBox2">
+                      <div class="NEmpLogo">
+                        <img src="../assets/images/home/user-add.svg" alt="">
+                        <span>موظف جديد</span>
+                      </div>
+                      <!-- end logo -->
+                      <div class="NEmpText">
+                       <h2>سعود عبدالله القحطاني</h2>
+                       <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل </p>
+                      </div>
+                      <!-- end text -->
+                    </a>
+                    <!-- end box -->
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="#!" class="NewsBox2">
+                      <div class="NEmpLogo">
+                        <img src="../assets/images/home/newsIcon3.svg" alt="">
+                        <span>ترقية</span>
+                      </div>
+                      <!-- end logo -->
+                      <div class="NEmpText">
+                       <h2>عبد الرحمن محمد الدوسري</h2>
+                       <p>تهنئة بمناسبة  الترقية الجديدة لمدير قسم المشتريات</p>
+                      </div>
+                      <!-- end text -->
+                    </a>
+                    <!-- end box -->
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="#!" class="NewsBox2">
+                      <div class="NEmpLogo">
+                        <img src="../assets/images/home/medal-star.svg" alt="">
+                        <span>موظف الشهر</span>
+                      </div>
+                      <!-- end logo -->
+                      <div class="NEmpText">
+                       <h2>عبدالرحمن الحقباني</h2>
+                       <p>لوريم ايبسوم هو نموذج افتراضي يوضع في التصاميم لتعرض على العميل  </p>
+                      </div>
+                      <!-- end text -->
+                    </a>
+                    <!-- end box -->
+                  </div>
+                  <!-- end slide -->
+                  <div class="swiper-slide">
+                    <a href="#!" class="NewsBox2">
+                      <div class="NEmpLogo">
+                        <img src="../assets/images/home/newsIcon1.svg" alt="">
+                        <span>مولود جديد</span>
+                      </div>
+                      <!-- end logo -->
+                      <div class="NEmpText">
+                       <h2>فهد عبد الرحمن البندري</h2>
+                       <p>تهنئة بمناسبة المولود الجديد عبدالله بارك الله فيه وأنبته نباتاً حسنا</p>
+                      </div>
+                      <!-- end text -->
+                    </a>
+                    <!-- end box -->
+                  </div>
+                  <!-- end slide -->
+                </div>
+              
+                <div class="swiper-pagination"></div>
+              </div>
+              <!-- end swiper -->
+            </div>
+            <!-- end activities -->
+          </div>
+          <!-- end main content -->
+        </div>
+         <!--   end main Content -->
+        <div class="col-md-3 col-md-3-cum">
+          <div class="sideBar">
+               <div class="welcomePopup">
+                <a href="javascript:;" class="openPopup hidden"><img src="../assets/images/home/PopupIcon.svg" alt=""></a>
+                <div class="contentPopup ">
+                  <div class="warpBox">
+                    <button  id="closePop" class="styleBtn">
+                      <img src="../assets/images/home/closePop.svg" alt="">
+                    </button>
+                    <img class="welcomeImg" src="../assets/images/home/welcomeEmp.svg" alt="">
+                    <div class="welcomeEmp">
+                      <h2>نرحب بك زميلنا العزيز</h2>
+                      <h3 class="titleFont22">فهد عبد الرحمن المطيري</h3>
+                      <p>:اليك بعض الروابط الهامة والأدلة الإرشادية و التوجيهية عن كيفية استخدام البوابة الداخلية للهيئة</p>
+                      <div class="linksBox">
+                        <span>روابط هامة</span>
+                        <ul class="scrollBox">
+                          <li><a class="linkWithIcon" href="javascript:;">دليل استخدام البوابة الداخلية للهيئة</a></li>
+                          <li> <a class="linkWithIcon" href="javascript:;">فيديوهات تعريفية بالبوابة وكيفية استخدامها</a></li>
+                          <li> <a class="linkWithIcon" href="javascript:;">الخدمات الأكثر استخداما</a></li>
+                          <li><a class="linkWithIcon" href="javascript:;">الأدلة الارشادية</a></li>
+                          <li><a class="linkWithIcon" href="javascript:;">دليل استخدام البوابة الداخلية للهيئة</a></li>
+                          <li> <a class="linkWithIcon" href="javascript:;">فيديوهات تعريفية بالبوابة وكيفية استخدامها</a></li>
+                          <li> <a class="linkWithIcon" href="javascript:;">الخدمات الأكثر استخداما</a></li>
+                          <li><a class="linkWithIcon" href="javascript:;">الأدلة الارشادية</a></li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+              <div class="employeeDetails">
+                <div class="empActions">
+                  <div class="emSetting">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../assets/images/home/IconSetting.svg" alt="">
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="javascript:;">Action</a></li>
+                        <li><a class="dropdown-item" href="javascript:;">Another action</a></li>
+                      </ul>
+                      </div>
+                  </div>
+                  <div class="empNotification">
+                    <a href="javascript:;">
+                      <span>2</span>
+                      <img src="../assets/images/home/notification.svg" alt="">
+                    </a>
+                  </div>
+                  <div class="empImg">
+                    <img src="../assets/images/home/imgEmp.svg" alt="">
+                  </div>
+                  <a href="javascript:;" class="empMessage">
+                    <img src="../assets/images/home/messageEmp.svg" alt="">
+                  </a>
+                  <a href="javascript:;" class="empEmail">
+                    <img src="../assets/images/home/emailEmp.svg" alt="">
+                  </a>
+                </div>
+                <!-- end action -->
+                <div class="empDetails">
+                  <h2 class="titleFont22">فهد عبد الرحمن المطيري</h2>
+                  <span class="font16Main">محلل نظم معلومات</span>
+                  <p>
+                    <span class="font16Main">إدارة تقنية المعلوات</span>
+                  </p>
+                  <a href="#!" class="font16Main fexCenter">
+                    <img src="../assets/images/home/folder-open.svg" alt="">
+                    مكتبة مستندات الإدارة
+                  </a>
+
+                </div>
+                <!--  end Details -->
+              </div>
+              <div class="empAttendance">
+                <div class="boxDate">
+                  <img src="../assets/images/home/calendar.svg" alt="">
+                  <span>‏11 يونيو 2022</span>
+                </div>
+                <div class="boxHour">
+                  <span>موعد الحضور</span>
+                  <img src="../assets/images/home/Time.svg" alt="">
+                  <p>
+                    <span>AM</span>
+                    <strong>07:35</strong>
+                  </p>
+                </div>
+              </div>
+              <!-- end attendance -->
+              <!-- start progress employee -->
+              <!-- Slider main container -->
+              <div class="warpperProgress">
+                <div class="boxPrg">
+                  <span>رصيد الأجازات</span>
+                  <div class="pie_progress" role="progressbar" data-goal="57" data-barcolor="#06B490" data-barsize="10" aria-valuemin="0" aria-valuemax="100">
+                    <div class="pie_progress__number">0%</div>
+                  </div>
+                  <span>متبقي 14 يوم</span>
+                </div>
+                <!-- end progress -->
+                <div class="boxPrg">
+                  <span> ساعات الإستئذان</span>
+                  <div class="pie_progress" role="progressbar" data-goal="40" data-barcolor="#E8A752" data-barsize="10" aria-valuemin="0" aria-valuemax="100">
+                    <div class="pie_progress__number">0%</div>
+                  </div>
+                  <span>متبقي 12 ساعة</span>
+                </div>
+                <!-- end progress -->
+              </div>
+              <!-- end progress employee -->
+              <div class="jobInfo">
+                <div class="titleWithAction">
+                  <h3 class="titleFont18">المعلومات الوظيفية</h3>
+                  <div class="action">
+                    <img src="../assets/images/home/menuIfExit.svg" alt="">
+                  </div>
+                </div>
+                <!-- end heading -->
+                <ul class="toCol">
+                  <li>
+                    <span>الرقم الوظيفي</span>
+                    <strong>25025</strong>
+                  </li>
+                  <li>
+                    <span>المرتبة</span>
+                    <strong>05</strong>
+                  </li>
+                  <li>
+                    <span>الدرجة</span>
+                    <strong>10</strong>
+                  </li>
+                  <li>
+                    <span>تاريخ التعيين</span>
+                    <strong>25/03/2019</strong>
+                  </li>
+                </ul>
+              </div>
+              <!-- end jop info -->
+              <div class="favoriteSec">
+                <div class="titleWithAction">
+                  <h3 class="titleFont18"> المفضلة</h3>
+                  <div class="action">
+                    <img src="../assets/images/home/menuIfExit.svg" alt="">
+                  </div>
+                </div>
+                <!-- start swiper -->
+                <div class="swiper swiperFav">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="flexRow">
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn.svg" alt="">
+                          <h4>النماذج</h4>
+                        </a>
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn2.svg" alt="">
+                          <h4>تصاريح الدخول</h4>
+                        </a>
+                      </div>
+                      <div class="flexRow">
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn003.svg" alt="">
+                          <h4>خدمات الضيافة</h4>
+                        </a>
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn000400.svg" alt="">
+                          <h4> طلب طباعة كارت شخصي</h4>
+                        </a>
+                      </div>
+                      <div class="flexRow">
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn5.svg" alt="">
+                          <h4>طلب قرطاسية</h4>
+                        </a>
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn6.svg" alt="">
+                          <h4>الدعم الفني</h4>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="flexRow">
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn.svg" alt="">
+                          <h4>النماذج</h4>
+                        </a>
+                        <a href="javascript:;" class="mainBox">
+                          <img src="../assets/images/home/iconPn2.svg" alt="">
+                          <h4>تصاريح الدخول</h4>
+                        </a>
+                      </div>
+                    </div>
+                     <div class="swiper-slide">Slide........</div>
+                   </div>
+                   <!-- end slid wrapper -->
+                   <div class="warpper1">
+                   <div class="swiper-pagination"></div>
+                     <div class="swiper-button-prev"></div>
+                     <div class="swiper-button-next"></div>
+                   </div>
+     
+                 </div>
+                  <!-- end swiper -->
+              </div>
+              <!-- end favorite -->
+              <div class="sideBarLinks">
+                <div class="SBLBox greenBox font14">
+                  <div>
+                    <img src="../assets/images/home/SBLIcon1.svg" alt="">
+                    <span>الظهر</span>
+                    <span> 11:53 AM</span>
+                  </div>
+                  <span>الرياض</span>
+                </div>
+                <!-- end box -->
+                <div class="SBLBox degreeWeather ">
+                  <div>
+                    <img src="../assets/images/home/SBLIcon2.svg" alt="">
+                    <p>
+                      <span>28 &deg;C</span>
+                      <span>غائم جزئياً</span>
+                    </p>
+                  </div>
+                  <div>
+                    <p>
+                      <span>العظمى</span>
+                      <span>38 &deg;C</span>
+                    </p>
+                    <p>
+                      <span>الصغرى</span>
+                      <span>23 &deg;C</span>
+                    </p>
+                  </div>
+                </div>
+                <!-- end box -->
+                <div class="SBLBox font16">
+                  <img src="../assets/images/home/SBLIcon3.svg" alt="">
+                  <p>
+                    <span>الاثنين 11 يونيو 2022</span>
+                    <span>-</span>
+                    <span>12 ذو القعدة 1443</span>
+                  </p>
+                </div>
+                <!-- end box -->
+                <a href="javascript:;" class="SBLBox linkSB">
+                  <img src="../assets/images/home/SBLIcon4.svg" alt="">
+                  <h5>دليل الموظفين</h5>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="SBLBox linkSB">
+                  <img src="../assets/images/home/SBLIcon5.svg" alt="">
+                  <h5>روزنامة الفعاليات</h5>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="SBLBox linkSB">
+                  <img src="../assets/images/home/SBLIcon6.svg" alt="">
+                  <h5>عروض ولائي بلس</h5>
+                </a>
+                <!-- end box -->
+                <a href="javascript:;" class="SBLBox linkSB">
+                  <img src="../assets/images/home/SBLIcon7.svg" alt="">
+                  <h5>تحميل توقيع البريد الالكتروني</h5>
+                </a>
+                <!-- end box -->
+              </div>
+              <div class="logoSideBar">
+                <img src="../assets/images/home/logoSideBar.svg" alt="">
+              </div>
+          </div>
+        </div>
+        <!--  end sidebar -->
+        <div class="col-md-12 p-0">
+          <footer>
+            <a href="#!" id="toTop" class="scrollToTop">
+              <img src="../assets/images/home/SctollTop.svg" alt="">
+            </a>
+            <div class="logoGami">
+              <img src="../assets/images/home/logoFooter.svg" alt="">
+            </div>
+            <p>
+              جميع الحقوق محفوظة للهيئة العامة للصناعات العسكرية © 2022
+            </p>
+            <div class="socialLink">
+              <a href="javascript:;">gami_KSA</a>
+              <a href="javascript:;"><img src="../assets/images/home/yout.svg" alt=""></a>
+              <a href="javascript:;"><img src="../assets/images/home/Linin.svg" alt=""></a>
+              <a href="#!"><img src="../assets/images/home/twFt.svg" alt=""></a>
+              <img src="../assets/images/home/visionLogo.svg" alt="">
+            </div>
+          </footer>
+        </div>
+      </div>
+      <!--  end row -->
+    </div>
+    <!-- end container -->
+  </div>
+    <!-- AO end layOut -->
+
+
+    <script src="../assets/js/jQueryV3.5.js" ></script>
+    <script src="../assets/js/bootstrap.bundle.min.js" ></script>
+    <script src="../assets/js/fancybox.min.js" ></script>
+    <script src="../assets/js/swiper-bundle.min.js" ></script>
+    <script src="../assets/js/jquery-asPieProgress.min.js" ></script>
+    <script src="../assets/js/custom.js"></script>
+    <script>
+      
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+$('.pie_progress').asPieProgress({
+      namespace: 'pie_progress',
+  });
+      $('.pie_progress').asPieProgress('start')
+    </script>
+
+  </body>
+</html>

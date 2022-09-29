@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.118" height="38.93" viewBox="0 0 38.118 38.93">
+  <g id="clockTem" transform="translate(-405.499 -95.245)">
+    <circle id="base" cx="16.899" cy="16.899" r="16.899" transform="translate(407.819 97.876)" fill="none" stroke="#fff" stroke-width="4"/>
+    <path id="Path_129855" data-name="Path 129855" d="M20.965,37.93A16.965,16.965,0,1,1,26.913,5.072" transform="translate(403.999 93.745)" fill="none" stroke="#06b490" stroke-linecap="round" stroke-width="5"/>
+    <line id="Line_8625" data-name="Line 8625" x2="5" y2="4" transform="translate(425.718 115.42)" fill="none" stroke="#06b490" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_8626" data-name="Line 8626" y2="6" transform="translate(424.565 107.88)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <g id="Ellipse_173" data-name="Ellipse 173" transform="translate(422.565 112.71)" fill="#fff" stroke="#06b490" stroke-width="1">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.5" fill="none"/>
+    </g>
+  </g>
+</svg>

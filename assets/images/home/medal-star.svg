@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.012" height="47.549" viewBox="0 0 48.012 47.549">
+  <g id="medal-star" transform="translate(-0.707 -0.75)">
+    <path id="Path_125175" data-name="Path 125175" d="M36.761,17.881a15.774,15.774,0,0,1-13.5,15.676,14,14,0,0,1-4.764,0A15.869,15.869,0,1,1,36.761,17.881Z" transform="translate(3.832)" fill="none" stroke="#004a4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Path_125176" data-name="Path 125176" d="M45.7,25.536l-3.743.885A2.226,2.226,0,0,0,40.276,28.1l-.794,3.335a2.269,2.269,0,0,1-3.947.93L24.713,19.933,13.891,32.388a2.269,2.269,0,0,1-3.947-.93L9.15,28.123a2.26,2.26,0,0,0-1.679-1.679l-3.743-.885a2.275,2.275,0,0,1-1.089-3.811L11.486,12.9a15.848,15.848,0,0,0,10.844,6.851,14,14,0,0,0,4.764,0A15.848,15.848,0,0,0,37.939,12.9l8.848,8.848A2.259,2.259,0,0,1,45.7,25.536Z" transform="translate(0 13.828)" fill="none" stroke="#004a4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <g id="user" transform="translate(17.861 9.427)">
+      <path id="Path_125178" data-name="Path 125178" d="M10.988,9.976A3.988,3.988,0,1,0,7,5.988,3.988,3.988,0,0,0,10.988,9.976Z" transform="translate(-4.136 -2)" fill="none" stroke="#004a4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      <path id="Path_125179" data-name="Path 125179" d="M17.113,20.583C17.113,17.5,14.042,15,10.262,15S3.41,17.5,3.41,20.583" transform="translate(-3.41 -4.631)" fill="none" stroke="#004a4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+/*
+For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1200px
+For Extra-large size device: 1200px and more
+*/
+
+@media (min-width: 1900px) {
+  .cardRow {
+    .col-lg-5 {
+      width: 46%;
+    }
+    .col-lg-7 {
+      width: 54%;
+    }
+    .dowmnCard {
+      margin: 0 auto;
+    }
+    .lableCard {
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1720px) {
+//   .container-fluid {
+//     border: 2px solid red;
+//   }
+
+  .flexRowWarp .flexRow {
+    justify-content: space-around;
+  }
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    margin-#{$end-direction}: 20px;
+    font-size: 14px;
+  }
+  .customMenu .dropdown-item {
+    font-size: 12px;
+  }
+  .customMenu .navbar-expand-lg .navbar-nav {
+    padding-#{$start-direction}: 0px;
+  }
+  .Layout .sideBar {
+    padding: 57px 30px 95px 30px;
+  }
+  .employeeDetails .empActions .empImg {
+    padding: 0 35px;
+  }
+  .welcomePopup .contentPopup .warpBox {
+    min-height: 630px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .adsSection {
+    .col-lg-8 {
+      width: 60%;
+    }
+    .col-lg-4 {
+      width: 40%;
+    }
+  }
+
+  .adsSection .ADSBox .ADSimg img {
+    width: 100%;
+    height: 100%;
+  }
+}
+

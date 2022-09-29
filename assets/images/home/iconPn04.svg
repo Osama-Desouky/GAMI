@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.528" height="47.528" viewBox="0 0 47.528 47.528">
+  <g id="iconPn04" transform="translate(-341.359 25.64)">
+    <line id="Line_167" data-name="Line 167" y1="7.919" x2="7.655" transform="translate(349.204 6.123)" fill="none" stroke="#004a4d" stroke-width="2"/>
+    <line id="Line_168" data-name="Line 168" x1="7.183" y2="6.919" transform="translate(373.859 -17.796)" fill="none" stroke="#004a4d" stroke-width="2"/>
+    <line id="Line_169" data-name="Line 169" x2="6.655" y2="6.919" transform="translate(349.204 -17.796)" fill="none" stroke="#004a4d" stroke-width="2"/>
+    <line id="Line_170" data-name="Line 170" x1="7.183" y1="6.919" transform="translate(373.859 7.123)" fill="none" stroke="#004a4d" stroke-width="2"/>
+    <g id="Ellipse_76" data-name="Ellipse 76" transform="translate(351.867 -15.133)" fill="none" stroke="#06b490" stroke-width="2">
+      <circle cx="13.257" cy="13.257" r="13.257" stroke="none"/>
+      <circle cx="13.257" cy="13.257" r="12.257" fill="none"/>
+    </g>
+    <g id="Ellipse_75" data-name="Ellipse 75" transform="translate(341.359 -25.64)" fill="none" stroke="#004a4d" stroke-width="2">
+      <circle cx="23.764" cy="23.764" r="23.764" stroke="none"/>
+      <circle cx="23.764" cy="23.764" r="22.764" fill="none"/>
+    </g>
+  </g>
+</svg>

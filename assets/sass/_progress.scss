@@ -1,0 +1,69 @@
+/**
+* jQuery asPieProgress v0.4.7
+* https://github.com/amazingSurge/jquery-asPieProgress
+*
+* Copyright (c) amazingSurge
+* Released under the LGPL-3.0 license
+*/
+.pie_progress {
+  position: relative;
+  text-align: center;
+
+  -webkit-transform-style: preserve-3d;
+
+  transform-style: preserve-3d;
+}
+.pie_progress__svg {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.pie_progress__svg svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.pie_progress__content,
+.pie_progress__number,
+.pie_progress__label,
+.pie_progress__icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.pie_progress__number {
+  font-size: 24px;
+  font-family: "Montserrat-SemiBold";
+  color: #fff;
+}
+
+.pie_progress__label {
+  margin-top: 32px;
+  font-size: 12px;
+}
+.pie_progress {
+  width: 126px;
+  height: 126px;
+}
+@media all and (max-width: 768px) {
+  .pie_progress {
+    width: 80%;
+    max-width: 300px;
+    
+  }
+}
+.pie_progress svg ellipse{stroke: rgb(255, 255, 255);}  
+.whiteBG .pie_progress svg ellipse{stroke: #E8ECEC}  
+.asd svg path{stroke: rgb(250, 0, 0);}  

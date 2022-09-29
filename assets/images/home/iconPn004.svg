@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.806" height="47.775" viewBox="0 0 52.806 47.775">
+  <g id="iconPn004" transform="translate(-0.75 -1.75)">
+    <path id="Path_124955" data-name="Path 124955" d="M47.76,12.382V29.964c0,6.791-1.585,8.98-7.546,9.332V21.311c0-7.5-1.912-9.382-9.508-9.382H6.962c-.7,0-1.358.025-1.962.05C5.075,4.811,7.037,3,14.508,3H38.252C45.848,3,47.76,4.886,47.76,12.382Z" transform="translate(4.546 0)" fill="none" stroke="#0b4d51" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Path_124954" data-name="Path 124954" d="M44.76,15.932V33.916c-.075,7.169-2.037,8.98-9.508,8.98H11.508C3.912,42.9,2,41.01,2,33.514V15.932C2,9.141,3.585,6.952,9.546,6.6c.6-.025,1.258-.05,1.962-.05H35.252C42.848,6.55,44.76,8.437,44.76,15.932Z" transform="translate(0 5.379)" fill="none" stroke="#10ad8d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Path_124956" data-name="Path 124956" d="M5.25,17.81H9.576" transform="translate(14.925 8.792)" fill="none" stroke="#10ad8d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_124957" data-name="Path 124957" d="M9.11,17.81h8.653" transform="translate(19.774 8.792)" fill="none" stroke="#10ad8d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <path id="Path_124958" data-name="Path 124958" d="M9.11,17.81h8.653" transform="translate(19.774 15.792)" fill="none" stroke="#10ad8d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    <rect id="Rectangle_14208" data-name="Rectangle 14208" width="7" height="7" rx="2" transform="translate(8 26.365)" fill="none" stroke="#19a68b" stroke-width="2.5"/>
+  </g>
+</svg>
