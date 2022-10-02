@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="356" height="242.645" viewBox="0 0 356 242.645">
+  <g id="photoNotFound" fill="#dee2e3" stroke="#b4bcbe" stroke-width="1">
+    <path d="M0,0H340a16,16,0,0,1,16,16V226.645a16,16,0,0,1-16,16H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H340A15.5,15.5,0,0,1,355.5,16V226.645a15.5,15.5,0,0,1-15.5,15.5H.5a0,0,0,0,1,0,0V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+  </g>
+</svg>

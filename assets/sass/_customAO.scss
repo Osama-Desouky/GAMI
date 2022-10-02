@@ -2201,3 +2201,142 @@ footer {
 
 
 
+
+.empDetails {
+
+  .titleFont25,
+  .EmpTitle,
+  .empContact:first-of-type,
+  .details {
+    margin-bottom: 15px;
+  }
+  .EmpTitle {
+    font-size: 16px;
+    color: #3fc298;
+    font-family: "swissraBold";
+  }
+  .empContact {
+    display: flex;
+    span {
+      color: #3fc298;
+      font-size: 16px;
+      padding-right: 15px;
+      &.fontRopoto {
+        font-family: "Roboto-Bold";
+      }
+    }
+  }
+}
+
+
+
+.employeeDetailsMain {
+  display: flex;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+  .notExists {
+    border-top: 1px solid #C2CCCA;
+    margin-top: 24px;
+    padding-top: 20px;
+    p {
+      margin: 0;
+    }
+    .txtLink {
+      font-size: 16px;
+      line-height: 32px;
+      color: #34677D !important;
+      margin-right: 31px;
+      display: inline-block;
+    }
+  }
+  .empImg {
+    width: 356px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px 16px 16px 0px;
+    span {
+      @extend .fexCenter;
+      @extend .titleFont18;
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      background: #34677D;
+      bottom: 0;
+      right: 0;
+      height: 50px;
+      color: #fff;
+      border-radius: 0px 0px 16px 0px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0px 16px 16px 0px;
+    }
+  }
+  .empTxt {
+    width: calc(100% - 356px);
+    padding: 32px 45px;
+    .empExists {
+      @extend .felxSpaceBbetween;
+      align-items: center;
+      .downloadMain {
+        max-width: 300px;
+        width: 100%;
+        margin: unset;
+      }
+    }
+  }
+}
+
+.modalEmpDetails {
+  .modal-content {
+    border-radius: 16px;
+  }
+  .btn-close{
+    background-image: url(../images/sharedIcon/closePopEm.svg);
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    background-size: 20px;
+    padding: 0px 2px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    &:hover {
+      background-color:transparent ;
+    }
+  }
+  .modal-dialog {
+    max-width: 1000px;
+    @extend .modal-dialog-center;
+  }
+  .modal-body {
+    padding: 84px 48px;
+  }
+  .content {
+    border-radius: 16px;
+    padding: 35px 43px;
+    border: 1px solid #C0C7C9;
+    .empImg {
+      padding-left: 47px;
+      img {
+        border-radius: 16px;
+        max-height: 242px;
+      }
+    }
+    .details {
+      margin-bottom: 15px;
+    }
+    .downloadMain  {
+      margin-top: 45px;
+    }
+  }
+} 
+.paginationEmpDec {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}

@@ -262,7 +262,7 @@ input[type="number"] {
 }
 
 .fexCenter, .readMore, .mainBox .soon, .employeeDetails .empActions .empNotification > a span, .empAttendance .boxHour, .empAttendance .boxHour p, footer, .scrollToTop, .includNumber .checkNum .border, .EmpDectionary .EmpDekActions .inputSelect,
-.EmpDectionary .EmpDekActions .leftSide {
+.EmpDectionary .EmpDekActions .leftSide, .employeeDetailsMain .empImg span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,7 +275,7 @@ input[type="number"] {
 }
 
 .felxSpaceBbetween, .titleWithAction, .employeeDetails .empActions, .empAttendance, .warpperProgress .boxPrg, .jobInfo .toCol li, .sideBarLinks .SBLBox, .sideBarLinks .SBLBox.degreeWeather div:last-of-type p, .flexRowWarp .heading, .flexRowWarp .flexRow, .adsSection .heading, .NewsEmp .heading,
-.activities .heading, .tableBox .actionTable, .EmpDectionary .EmpDekActions {
+.activities .heading, .tableBox .actionTable, .EmpDectionary .EmpDekActions, .employeeDetailsMain .empTxt .empExists {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,12 +293,12 @@ input[type="number"] {
   padding-right: 8px;
 }
 
-.positionAbsolute, .employeeDetails::after, .breadCrumb .breadCrumbDetails a::after, .breadCrumb .breadCrumbFunctions .btnClick.added::after, .warpperProgress .boxPrg:first-of-type::after, footer .logoGami::after, .NewsBox2 .NEmpLogo::after, .NewsBox2 .NEmpLogo::before, .workCard2::after, .includNumber .checkNum.addNum .border::after, .includNumber .numberInc .code, .monthlyNews::after, .monthlyNews .titleFont18::after {
+.positionAbsolute, .employeeDetails::after, .breadCrumb .breadCrumbDetails a::after, .breadCrumb .breadCrumbFunctions .btnClick.added::after, .warpperProgress .boxPrg:first-of-type::after, footer .logoGami::after, .NewsBox2 .NEmpLogo::after, .NewsBox2 .NEmpLogo::before, .workCard2::after, .includNumber .checkNum.addNum .border::after, .includNumber .numberInc .code, .monthlyNews::after, .monthlyNews .titleFont18::after, .monthlyNews .employeeDetailsMain .empImg span::after, .employeeDetailsMain .empImg .monthlyNews span::after {
   position: absolute;
   content: "";
 }
 
-.modal-dialog-center, .modalSearch .modal-dialog {
+.modal-dialog-center, .modalSearch .modal-dialog, .modalEmpDetails .modal-dialog {
   max-width: 800px;
   min-height: calc(100vh - 60px);
   display: -webkit-box;
@@ -315,7 +315,7 @@ input[type="number"] {
 }
 
 @media (max-width: 768px) {
-  .modal-dialog-center, .modalSearch .modal-dialog {
+  .modal-dialog-center, .modalSearch .modal-dialog, .modalEmpDetails .modal-dialog {
     min-height: calc(100vh - 20px);
   }
 }
@@ -332,7 +332,7 @@ input[type="number"] {
   color: #004A4D;
 }
 
-.titleFont18 {
+.titleFont18, .employeeDetailsMain .empImg span {
   font-size: 18px;
   font-family: "swissraMedium";
   margin: 0;
@@ -647,7 +647,7 @@ button:hover {
   margin-bottom: 16px;
 }
 
-.titleWithAction .titleFont18 {
+.titleWithAction .titleFont18, .titleWithAction .employeeDetailsMain .empImg span, .employeeDetailsMain .empImg .titleWithAction span {
   color: #05c59d;
 }
 
@@ -1797,7 +1797,7 @@ footer .socialLink > img {
   color: rgba(96, 97, 97, 0.5);
 }
 
-.votSection .titleFont18 {
+.votSection .titleFont18, .votSection .employeeDetailsMain .empImg span, .employeeDetailsMain .empImg .votSection span {
   color: #fff;
   line-height: 30px;
   margin-bottom: 18px;
@@ -2716,7 +2716,7 @@ footer .socialLink > img {
   background-size: 50px;
 }
 
-.monthlyNews .titleFont18 {
+.monthlyNews .titleFont18, .monthlyNews .employeeDetailsMain .empImg span, .employeeDetailsMain .empImg .monthlyNews span {
   width: calc(100% - 50px);
   line-height: 37px;
   color: #004a4d;
@@ -2725,7 +2725,7 @@ footer .socialLink > img {
   position: relative;
 }
 
-.monthlyNews .titleFont18::after {
+.monthlyNews .titleFont18::after, .monthlyNews .employeeDetailsMain .empImg span::after, .employeeDetailsMain .empImg .monthlyNews span::after {
   right: 0;
   height: 2px;
   background: #e8a752;
@@ -2747,6 +2747,169 @@ footer .socialLink > img {
 
 .monthlyNews .greenBtn {
   width: 80%;
+}
+
+.empDetails .titleFont25,
+.empDetails .EmpTitle,
+.empDetails .empContact:first-of-type,
+.empDetails .details {
+  margin-bottom: 15px;
+}
+
+.empDetails .EmpTitle {
+  font-size: 16px;
+  color: #3fc298;
+  font-family: "swissraBold";
+}
+
+.empDetails .empContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.empDetails .empContact span {
+  color: #3fc298;
+  font-size: 16px;
+  padding-right: 15px;
+}
+
+.empDetails .empContact span.fontRopoto {
+  font-family: "Roboto-Bold";
+}
+
+.employeeDetailsMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+}
+
+.employeeDetailsMain .notExists {
+  border-top: 1px solid #C2CCCA;
+  margin-top: 24px;
+  padding-top: 20px;
+}
+
+.employeeDetailsMain .notExists p {
+  margin: 0;
+}
+
+.employeeDetailsMain .notExists .txtLink {
+  font-size: 16px;
+  line-height: 32px;
+  color: #34677D !important;
+  margin-right: 31px;
+  display: inline-block;
+}
+
+.employeeDetailsMain .empImg {
+  width: 356px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.employeeDetailsMain .empImg span {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background: #34677D;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  color: #fff;
+  border-radius: 0px 0px 16px 0px;
+}
+
+.employeeDetailsMain .empImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.employeeDetailsMain .empTxt {
+  width: calc(100% - 356px);
+  padding: 32px 45px;
+}
+
+.employeeDetailsMain .empTxt .empExists {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.employeeDetailsMain .empTxt .empExists .downloadMain {
+  max-width: 300px;
+  width: 100%;
+  margin: unset;
+}
+
+.modalEmpDetails .modal-content {
+  border-radius: 16px;
+}
+
+.modalEmpDetails .btn-close {
+  background-image: url(../images/sharedIcon/closePopEm.svg);
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  background-size: 20px;
+  padding: 0px 2px;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.modalEmpDetails .btn-close:hover {
+  background-color: transparent;
+}
+
+.modalEmpDetails .modal-dialog {
+  max-width: 1000px;
+}
+
+.modalEmpDetails .modal-body {
+  padding: 84px 48px;
+}
+
+.modalEmpDetails .content {
+  border-radius: 16px;
+  padding: 35px 43px;
+  border: 1px solid #C0C7C9;
+}
+
+.modalEmpDetails .content .empImg {
+  padding-left: 47px;
+}
+
+.modalEmpDetails .content .empImg img {
+  border-radius: 16px;
+  max-height: 242px;
+}
+
+.modalEmpDetails .content .details {
+  margin-bottom: 15px;
+}
+
+.modalEmpDetails .content .downloadMain {
+  margin-top: 45px;
+}
+
+.paginationEmpDec {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*
