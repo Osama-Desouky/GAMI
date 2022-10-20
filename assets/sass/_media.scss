@@ -45,12 +45,19 @@ For Extra-large size device: 1200px and more
     padding: 57px 30px 95px 30px;
   }
   .employeeDetails .empActions .empImg {
-    padding: 0 35px;
+    padding: 0 25px;
+  }
+  .employeeDetails .empActions .emSetting {
+    margin-right: 10px;
   }
   .welcomePopup .contentPopup .warpBox {
     min-height: 630px;
   }
+  .votSection .votInput {
+    max-width: 210px;
+  }
 }
+
 @media (min-width: 1400px) and (max-width: 1600px) {
   .adsSection {
     .col-lg-8 {
@@ -61,9 +68,177 @@ For Extra-large size device: 1200px and more
     }
   }
 
+.NewsEmp {
+    .col-lg-8 {
+      width: 60%;
+    }
+    .col-lg-4 {
+      width: 40%;
+    }
+  }
+  
   .adsSection .ADSBox .ADSimg img {
     width: 100%;
     height: 100%;
   }
 }
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .customMenu .navbar-light .navbar-brand img {
+    max-width: 170px;
+  }
+  .customMenu .navbar-light .navbar-nav .changeLang .nav-link,
+  .customMenu .navbar-light .navbar-nav .sreachMenu .nav-link {
+    transform: scale(.8);
+    margin-left: 0;
+  }
+  .employeeDetails .empActions {
+    flex-wrap: wrap;
+  }
 
+}
+@media (max-width: 1400px) {
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .customMenu .navbar-light .navbar-brand img {
+    max-width: 170px;
+  }
+  .container {
+    // border: 1px solid red;
+  }
+  .favoriteSec .flexRow {
+    display: block;
+  }
+  .favoriteSec .flexRow .mainBox {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .customMenu .navbar-light .navbar-brand img {
+    max-width: 170px;
+  }
+  .customMenu .navbar-light .navbar-nav .changeLang .nav-link,
+  .customMenu .navbar-light .navbar-nav .sreachMenu .nav-link {
+    transform: scale(.8);
+    margin-left: 0;
+  }
+  .customMenu {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 33px;
+  }
+  .customMenu .navbar {
+    padding: 0;
+  }
+
+  .Layout .col-md-9-cum {
+    width: 100%;
+
+  }
+  .Layout .col-md-3-cum {
+    width: 100%;
+  }
+  .votSection .pollBtnWrapper {
+    display: flex;
+  }
+  .customMenu .dropdown-item {
+    font-size: 12px;
+  }
+  .welcomePopup .openPopup img{
+    width: 62%;
+  }
+  .welcomePopup .contentPopup .warpBox {
+    width: 90%;
+  }
+  footer {
+    flex-direction: column;
+    padding:20px;
+    
+  }
+  footer .socialLink {
+    text-align: center;
+  }
+  footer .socialLink > img {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1000px) {
+
+}
+@media (max-width: 991px) {
+  .customMenu .container {
+    margin: 0;
+    max-width: unset;
+    padding: 0;
+  }
+  .customMenu .navbar-nav {
+    padding: 0;
+  }
+  .customMenu .megamenu-li {
+    position: relative;
+  }
+  .customMenu .dmenu .megamenu {
+    top: 60px;
+  }  
+  .customMenu .megamenu-li.dmenu .nav-link {
+    padding: 22px 0;
+    margin: 0;
+  }
+  .customMenu .megamenu-li.dmenu .nav-link:hover {
+    background-color: transparent;
+  }
+  .customMenu .megamenu-li.dmenu .nav-link::before {
+    top: 20px;
+    padding: 35px 0;
+  }
+  .modalSearch .modal-dialog .modal-content .SearchCustom {
+    width: auto;
+  }
+}
+@media (max-width: 500px) {
+  .customMenu .megamenu-li.dmenu .nav-link::before {
+    padding: 20px 0;
+  }
+  .homeBanner .bannerContent {
+    padding: 10px;
+  }
+  .homeBanner .bannerContent h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .homeBanner .bannerContent p {
+    font-size: 14px;
+    line-height: 22px;
+    width: auto;
+  }
+  .homeBanner .bannerContent .actionBanner .btnBanner {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+  .homeBanner .bannerContent .actionBanner .link2, .homeBanner .bannerContent .actionBanner .payVideo,
+   .homeBanner .bannerContent .actionBanner .payVideo span {
+    font-size: 14px;
+  }
+  .flexRowWarp .flexRow .mainBox {
+    margin-bottom: 30px;
+    min-width: 100%;
+  }
+  .employeeDetails .empActions .empImg {
+    padding: 0 10px;
+  }
+  .employeeDetails .empActions .empMessage {
+    margin-right: 15px;
+  }
+  .Layout .sideBar {
+    padding: 30px 20px;
+  }
+  .employeeDetails .empActions .emSetting {
+    margin-right: 0;
+  }
+}

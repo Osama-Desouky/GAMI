@@ -293,7 +293,7 @@ input[type="number"] {
   padding-right: 8px;
 }
 
-.positionAbsolute, .employeeDetails::after, .breadCrumb .breadCrumbDetails a::after, .breadCrumb .breadCrumbFunctions .btnClick.added::after, .warpperProgress .boxPrg:first-of-type::after, footer .logoGami::after, .NewsBox2 .NEmpLogo::after, .NewsBox2 .NEmpLogo::before, .workCard2::after, .includNumber .checkNum.addNum .border::after, .includNumber .numberInc .code, .monthlyNews::after, .monthlyNews .titleFont18::after, .monthlyNews .employeeDetailsMain .empImg span::after, .employeeDetailsMain .empImg .monthlyNews span::after {
+.positionAbsolute, .employeeDetails::after, .breadCrumb .breadCrumbDetails a::after, .breadCrumb .breadCrumbFunctions .btnClick.added::after, .warpperProgress .boxPrg:first-of-type::after, footer .logoGami::after, .NewsBox2 .NEmpLogo::after, .NewsBox2 .NEmpLogo::before, .workCard2::after, .includNumber .checkNum.addNum .border::after, .includNumber .numberInc .code, .monthlyNews::after, .monthlyNews .titleFont18::after, .monthlyNews .employeeDetailsMain .empImg span::after, .employeeDetailsMain .empImg .monthlyNews span::after, .director-center .director::after, .greenSection::after {
   position: absolute;
   content: "";
 }
@@ -2912,6 +2912,173 @@ footer .socialLink > img {
           justify-content: center;
 }
 
+.departEmpBox {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  text-align: right;
+  -webkit-box-shadow: 0 3px 50px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 50px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 43px;
+  width: 100%;
+}
+
+.departEmpBox img {
+  width: 100%;
+  max-height: 237px;
+  border-radius: 12px;
+}
+
+.departEmpBox h2,
+.departEmpBox h3 {
+  padding: 16px;
+  padding-bottom: 0;
+  font-size: 20px;
+  margin: 0;
+}
+
+.departEmpBox h2 {
+  font-size: 20px;
+}
+
+.departEmpBox h3 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #3FC298;
+  padding-bottom: 18px;
+  margin: 0;
+}
+
+.director-center {
+  text-align: center;
+  margin: 30px 0 25px;
+}
+
+.director-center .director {
+  max-width: 370px;
+  position: relative;
+}
+
+.director-center .director::after {
+  bottom: -42px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  height: 50px;
+  width: 15px;
+  background: transparent url(../images/DepartEmp/empDepIcon.svg) no-repeat;
+}
+
+.director-center .director img {
+  max-height: 300px;
+}
+
+.director-center .director h2 {
+  font-size: 25px;
+}
+
+.director-center .director h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.greenSection {
+  position: relative;
+  background: #06B490;
+}
+
+.greenSection::after {
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          transform: translate(-50%, -50%) rotate(90deg);
+  left: -8px;
+  height: 32px;
+  width: 15px;
+  background: transparent url(../images/DepartEmp/empDepIcon.svg) no-repeat;
+}
+
+.greenSection .titleFont22 {
+  padding-bottom: 12px;
+  color: #fff;
+}
+
+.greenSection .titleFont22:first-of-type {
+  padding: 21px 10px 16px;
+  text-align: center;
+}
+
+.greenSection h3 {
+  padding-top: 11px;
+  padding-bottom: 6px;
+  color: #fff;
+}
+
+.offersListItem {
+  background: #fff;
+  -webkit-box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 50px;
+  display: block;
+  min-height: 384px;
+  border-radius: 12px;
+}
+
+.offersListItem .offersListItemBadge {
+  display: block;
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  background: url(../images/DepartEmp/newIcon.svg) center center no-repeat;
+  width: 55px;
+  height: 53px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.offersListItem img {
+  width: 100%;
+  height: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 185px;
+  height: 100%;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.offersListItem .offersListItemTxt {
+  padding: 0 17px;
+}
+
+.offersListItem h2 {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #004A4D;
+  font-family: "swissraMedium";
+  margin-bottom: 25px;
+  line-height: 32px;
+}
+
+.offersListItem p {
+  margin: 0 0 58px 0;
+  font-size: 15px;
+  color: #606161;
+}
+
+.offersListItem p span {
+  color: #06B490;
+  font-family: "Roboto-Regular";
+}
+
 /*
 For Mobile devices: 320px-480px
 For Tablets or iPad: 480px - 768px
@@ -2953,10 +3120,16 @@ For Extra-large size device: 1200px and more
     padding: 57px 30px 95px 30px;
   }
   .employeeDetails .empActions .empImg {
-    padding: 0 35px;
+    padding: 0 25px;
+  }
+  .employeeDetails .empActions .emSetting {
+    margin-right: 10px;
   }
   .welcomePopup .contentPopup .warpBox {
     min-height: 630px;
+  }
+  .votSection .votInput {
+    max-width: 210px;
   }
 }
 
@@ -2967,9 +3140,178 @@ For Extra-large size device: 1200px and more
   .adsSection .col-lg-4 {
     width: 40%;
   }
+  .NewsEmp .col-lg-8 {
+    width: 60%;
+  }
+  .NewsEmp .col-lg-4 {
+    width: 40%;
+  }
   .adsSection .ADSBox .ADSimg img {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .customMenu .navbar-light .navbar-brand img {
+    max-width: 170px;
+  }
+  .customMenu .navbar-light .navbar-nav .changeLang .nav-link,
+  .customMenu .navbar-light .navbar-nav .sreachMenu .nav-link {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin-left: 0;
+  }
+  .employeeDetails .empActions {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1400px) {
+  .customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .customMenu .navbar-light .navbar-brand img {
+    max-width: 170px;
+  }
+  .favoriteSec .flexRow {
+    display: block;
+  }
+  .favoriteSec .flexRow .mainBox {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .customMenu .navbar-light .navbar-brand img {
+    max-width: 170px;
+  }
+  .customMenu .navbar-light .navbar-nav .changeLang .nav-link,
+  .customMenu .navbar-light .navbar-nav .sreachMenu .nav-link {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin-left: 0;
+  }
+  .customMenu {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 33px;
+  }
+  .customMenu .navbar {
+    padding: 0;
+  }
+  .Layout .col-md-9-cum {
+    width: 100%;
+  }
+  .Layout .col-md-3-cum {
+    width: 100%;
+  }
+  .votSection .pollBtnWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .customMenu .dropdown-item {
+    font-size: 12px;
+  }
+  .welcomePopup .openPopup img {
+    width: 62%;
+  }
+  .welcomePopup .contentPopup .warpBox {
+    width: 90%;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px;
+  }
+  footer .socialLink {
+    text-align: center;
+  }
+  footer .socialLink > img {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .customMenu .container {
+    margin: 0;
+    max-width: unset;
+    padding: 0;
+  }
+  .customMenu .navbar-nav {
+    padding: 0;
+  }
+  .customMenu .megamenu-li {
+    position: relative;
+  }
+  .customMenu .dmenu .megamenu {
+    top: 60px;
+  }
+  .customMenu .megamenu-li.dmenu .nav-link {
+    padding: 22px 0;
+    margin: 0;
+  }
+  .customMenu .megamenu-li.dmenu .nav-link:hover {
+    background-color: transparent;
+  }
+  .customMenu .megamenu-li.dmenu .nav-link::before {
+    top: 20px;
+    padding: 35px 0;
+  }
+  .modalSearch .modal-dialog .modal-content .SearchCustom {
+    width: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .customMenu .megamenu-li.dmenu .nav-link::before {
+    padding: 20px 0;
+  }
+  .homeBanner .bannerContent {
+    padding: 10px;
+  }
+  .homeBanner .bannerContent h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .homeBanner .bannerContent p {
+    font-size: 14px;
+    line-height: 22px;
+    width: auto;
+  }
+  .homeBanner .bannerContent .actionBanner .btnBanner {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+  .homeBanner .bannerContent .actionBanner .link2, .homeBanner .bannerContent .actionBanner .payVideo, .homeBanner .bannerContent .actionBanner .payVideo span, .homeBanner .bannerContent .actionBanner .payVideo,
+  .homeBanner .bannerContent .actionBanner .payVideo span {
+    font-size: 14px;
+  }
+  .flexRowWarp .flexRow .mainBox {
+    margin-bottom: 30px;
+    min-width: 100%;
+  }
+  .employeeDetails .empActions .empImg {
+    padding: 0 10px;
+  }
+  .employeeDetails .empActions .empMessage {
+    margin-right: 15px;
+  }
+  .Layout .sideBar {
+    padding: 30px 20px;
+  }
+  .employeeDetails .empActions .emSetting {
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=styleRTL.css.map */

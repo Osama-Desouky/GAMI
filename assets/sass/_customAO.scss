@@ -2340,3 +2340,144 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+
+.departEmpBox  {
+  display: inline-flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  text-align: right;
+  box-shadow: 0 3px 50px 10px rgba(0, 0, 0, 0.10);
+  margin-bottom: 43px;
+  width: 100%;
+ img {
+  width: 100%;
+  max-height: 237px;
+  border-radius: 12px;
+ } 
+ h2 ,
+ h3 {
+  padding: 16px;
+  padding-bottom: 0;
+  font-size: 20px;
+  margin: 0;
+ }
+ h2 {
+  font-size: 20px;
+ }
+ h3 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #3FC298;
+  padding-bottom: 18px;
+  margin: 0;
+ }
+}
+.director-center {
+  text-align: center;
+  margin: 30px 0 25px;
+  .director {
+    max-width: 370px;
+    position: relative;
+
+    &::after {
+      @extend .positionAbsolute;
+      bottom: -42px;
+      transform: translateX(-50%);
+      left: 50%;
+      height: 50px;
+      width: 15px;
+      background: transparent url(../images/DepartEmp/empDepIcon.svg) no-repeat;
+    }
+    img {
+      max-height: 300px;
+     
+     } 
+     h2 {
+      font-size: 25px;
+     }
+     h3 {
+      font-size: 18px;
+      text-align: center;
+     }
+  }
+}
+.greenSection {
+  position: relative;
+  background: #06B490;
+  
+  &::after {
+    @extend .positionAbsolute;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(90deg);
+    left: -8px;
+    height: 32px;
+    width: 15px;
+    background: transparent url(../images/DepartEmp/empDepIcon.svg) no-repeat;
+  }
+  .titleFont22 {
+    &:first-of-type {
+      padding: 21px 10px 16px;
+      text-align: center;
+    }
+    padding-bottom: 12px;
+    color: #fff;
+  }
+  h3 {
+    padding-top: 11px;
+    padding-bottom: 6px;
+    color: #fff;
+  }
+}
+.offersListItem {
+	background: #fff;
+	box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin-bottom: 50px;
+	display: block;
+	min-height: 384px;
+	border-radius: 12px;
+	.offersListItemBadge {
+		display: block;
+		position: absolute;
+		top: -5px;
+		right: 20px;
+		background: url(../images/DepartEmp/newIcon.svg) center center no-repeat;
+		width: 55px;
+		height: 53px;
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+		padding: 10px 0;
+	}
+	img {
+		width: 100%;
+		height: 110px;
+		object-fit: cover;
+		max-height: 185px;
+		height: 100%;
+		width: 100%;
+		border-radius: 12px 12px 0 0;
+	}
+	.offersListItemTxt {
+		padding: 0 17px;
+	}
+	h2 {
+		margin-top: 30px;
+		font-size: 18px;
+		color: #004A4D;
+		font-family: "swissraMedium";
+		margin-bottom: 25px;
+		line-height: 32px;
+	}
+	p {
+		margin: 0 0 58px 0;
+		font-size: 15px;
+		color: #606161;
+		span {
+			color: #06B490;
+			font-family: "Roboto-Regular";
+		}
+	}
+}

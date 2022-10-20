@@ -94,7 +94,7 @@ const swiper3 = new Swiper(".swiperADS", {
   breakpoints: {
     // when window width is >= 320px
     320: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 20,
     },
     // when window width is >= 480px
@@ -123,10 +123,10 @@ const swiper4 = new Swiper(".swiperActivities", {
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 320px
-    // 320: {
-    //   slidesPerView: 2,
-    //   spaceBetween: 20
-    // },
+    320: {
+      slidesPerView: 1,
+
+    },
     // when window width is >= 480px
     1400: {
       slidesPerView: 1,
