@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.463" height="58.884" viewBox="0 0 54.463 58.884">
+  <g id="Survey-icon" transform="translate(0.244 0.25)">
+    <rect id="Rectangle_884" data-name="Rectangle 884" width="7.366" height="1.328" transform="translate(6.175 48.229)" fill="#004a4d" stroke="#004a4d" stroke-width="0.5"/>
+    <g id="Group_3650" data-name="Group 3650">
+      <g id="Group_3652" data-name="Group 3652">
+        <path id="Path_9284" data-name="Path 9284" d="M39.247,58.384H.149l-.093-.554a8.042,8.042,0,0,1-.033-1.618c.011-.28.025-.569.024-.859l-.013-8.08C.012,32.329-.015,15.391.048.661L.05,0H39.095V.664c0,4.537.02,12.624.046,18.5l0,.664-1.328.006,0-.664c-.025-5.6-.044-13.215-.046-17.846H1.373c-.059,14.57-.033,31.224-.01,45.942l.013,8.08c0,.309-.013.618-.025.918-.013.276-.024.544-.023.788H37.917l-.006-4.193c0-2.571,0-3.179.007-5.935l0-.664,1.328,0,0,.664c-.011,2.752-.011,3.36-.007,5.928Z" transform="translate(0)" fill="#004a4d" stroke="#004a4d" stroke-width="0.5"/>
+        <g id="Group_129060" data-name="Group 129060" transform="translate(22.375 15.963)">
+          <path id="Path_9285" data-name="Path 9285" d="M71.427,24.039,76.7,28.95l-.914.409c-1.186.531-1.893.852-2.408,1.086-1.179.535-1.36.618-3.938,1.7l-1.476.622.6-1.484c.564-1.387.9-2.261,1.249-3.166.337-.874.684-1.775,1.253-3.185Zm2.9,4.518-2.39-2.227c-.365.916-.628,1.6-.885,2.268-.209.541-.414,1.072-.664,1.708,1.235-.524,1.55-.667,2.438-1.07.369-.167.834-.379,1.5-.679" transform="translate(-67.961 0.338)" fill="#004a4d" stroke="#004a4d" stroke-width="0.5"/>
+          <path id="Path_9286" data-name="Path 9286" d="M57.386,31.065l5.46,5.09L58.38,40.949c-4.458,4.785-7.447,7.993-12.9,13.838l-.453.485-5.456-5.085Zm3.584,5.156-3.518-3.278L41.443,50.12,44.957,53.4c5.173-5.542,8.117-8.7,12.451-13.352Z" transform="translate(-35.255 -26.829)" fill="#004a4d" stroke="#004a4d" stroke-width="0.5"/>
+          <rect id="Rectangle_885" data-name="Rectangle 885" width="4.219" height="7.188" transform="matrix(-0.682, 0.732, -0.732, -0.682, 31.49, 4.901)" fill="#004a4d" stroke="#004a4d" stroke-width="0.5"/>
+        </g>
+        <g id="Group_3653" data-name="Group 3653" transform="translate(6.464 18.59)">
+          <g id="Group_129062" data-name="Group 129062" transform="translate(0)">
+            <path id="Path_9290" data-name="Path 9290" d="M40.247,27.215l.013-1.347H38.319l-1.205,1.347Z" transform="translate(-13.239 -23.138)" fill="#06b490" stroke="#06b490" stroke-width="0.5"/>
+            <rect id="Rectangle_15922" data-name="Rectangle 15922" width="6.808" height="6.808" transform="translate(0 0)" fill="none" stroke="#06b490" stroke-width="1.7"/>
+            <path id="Path_129947" data-name="Path 129947" d="M9.31,17.324,9.3,18.672H18.74l1.205-1.347Z" transform="translate(2.313 -14.594)" fill="#06b490" stroke="#06b490" stroke-width="0.5"/>
+          </g>
+        </g>
+        <g id="Group_129064" data-name="Group 129064" transform="translate(6.464 29.936)">
+          <path id="Path_129945" data-name="Path 129945" d="M9.3,25.868,9.3,27.215h9.935l.713-1.347Z" transform="translate(2.313 -23.138)" fill="#06b490" stroke="#06b490" stroke-width="0.5"/>
+          <rect id="Rectangle_15923" data-name="Rectangle 15923" width="6.808" height="6.808" transform="translate(0)" fill="none" stroke="#06b490" stroke-width="1.7"/>
+        </g>
+        <g id="Group_129065" data-name="Group 129065" transform="translate(6.192 8.378)">
+          <path id="Path_9287" data-name="Path 9287" d="M9.31,17.324,9.3,18.672H18.74l1.205-1.347Z" transform="translate(2.586 -14.424)" fill="#06b490" stroke="#06b490" stroke-width="0.5"/>
+          <path id="Path_9288" data-name="Path 9288" d="M29.19,18.672l.013-1.347H27.263l-1.205,1.347Z" transform="translate(-1.91 -14.424)" fill="#06b490" stroke="#06b490" stroke-width="0.5"/>
+          <path id="Path_129944" data-name="Path 129944" d="M13168.76,7132.97l2.828,2.764,4.627-5.013" transform="translate(-13168.76 -7130.721)" fill="none" stroke="#06b490" stroke-width="1.7"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

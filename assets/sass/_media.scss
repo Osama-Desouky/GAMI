@@ -101,6 +101,18 @@ For Extra-large size device: 1200px and more
 
 }
 @media (max-width: 1400px) {
+  .EmpDectionary {
+    .EmpDekActions {
+      flex-wrap: wrap;
+      .leftSide {
+        flex-wrap: wrap;
+      }
+     
+      .inputSearch {
+        margin-bottom: 30px;
+      }
+    }
+  }
   .customMenu .navbar-light .navbar-nav .nav-link {
     font-size: 12px;
     margin-left: 10px;
@@ -123,6 +135,7 @@ For Extra-large size device: 1200px and more
   .customMenu .navbar-light .navbar-brand img {
     max-width: 170px;
   }
+  
   .customMenu .navbar-light .navbar-nav .changeLang .nav-link,
   .customMenu .navbar-light .navbar-nav .sreachMenu .nav-link {
     transform: scale(.8);
@@ -240,5 +253,18 @@ For Extra-large size device: 1200px and more
   }
   .employeeDetails .empActions .emSetting {
     margin-right: 0;
+  }
+  .EmpDectionary .EmpDekActions .inputSearch input {
+    width: 80vw;
+  }
+  .EmpDectionary .EmpDekActions .leftSide {
+    justify-content: right;
+  }
+  .EmpDectionary .EmpDekActions .inputSelect {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .breadCrumb .breadCrumbTtl {
+    margin-bottom: 50px;
   }
 }
