@@ -1,3 +1,27 @@
+.EmpDectionary input[type=button],
+input[type=reset],
+.EmpDectionary input[type=submit],
+button {
+
+    border: 1px solid #b9dfd3;
+    background-color: #1a8674;
+    margin-right: 10px;
+    font-family: "swissraNormal";
+    font-size: 16px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.EmpDectionary input[type=button]:hover,
+.EmpDectionary input[type=reset]:hover,
+.EmpDectionary input[type=submit]:hover {
+    background: #06b490;
+}
+
+.EmpDectionary p.lable {
+    margin-left: 21px;
+}
+
 .ms-webpart-zone,
 div.ms-webpart-cell-vertical-inline-table,
 .ms-webpart-cell-vertical,
@@ -87,6 +111,7 @@ select {
     -moz-osx-font-smoothing: grayscale;
     /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
+
 /*---News Listing --*/
 .newsListItem {
     /*box-shadow:0 0px 2px rgba(0, 0, 0, 0.25);*/
@@ -989,6 +1014,7 @@ button.btn.btnwhiteBrdr:hover {
     position: relative;
     line-height: 2;
 }
+
 .inHomeEventsCalWrapper .ttl1,
 .evDetailsTtl,
 .service-description h2 {
@@ -1147,8 +1173,9 @@ button.btn.btnwhiteBrdr:hover {
 }
 
 .rating .rating-star {
-	color:#d5dfdf
+    color: #d5dfdf
 }
+
 .rating .rating-star.active {
     color: #06b490;
 }
@@ -1211,9 +1238,11 @@ button.btn.btnwhiteBrdr:hover {
     justify-content: center;
     margin: 0 3px;
 }
+
 .pagination a:empty {
     display: none
 }
+
 .text-center.nav-pager .pagination .active {
     background: #3fc298;
     color: #fff;
@@ -1222,11 +1251,13 @@ button.btn.btnwhiteBrdr:hover {
 .titleBorder {
     margin: unset
 }
+
 .modalSearch .SearchCustom .searchSubmit {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .customMenu .nav-link.btn.btn-primary,
 .customMenu .topLnk.lang {
     width: 45px;
@@ -1249,6 +1280,7 @@ button.btn.btnwhiteBrdr:hover {
     margin-left: 20px;
     color: #004A4D;
 }
+
 /*--*/
 .customMenu .nav-link.btn.btn-primary {
     color: #004A4D !important;
@@ -1256,21 +1288,25 @@ button.btn.btnwhiteBrdr:hover {
     min-width: 45px;
     padding: 0;
 }
+
 .flexRowWarp .flexRow .mainBox {
     max-width: 200px;
     width: 100%;
 }
+
 .votSection .votInput {
     background: #fff;
 }
-.pollBtnWrapper .btn.btnWhit{
+
+.pollBtnWrapper .btn.btnWhit {
     min-width: 120px;
     height: 42px;
     border-radius: 12px;
     font-size: 16px;
     color: #10484c;
 }
-.pollBtnWrapper .btn.btnwhiteBrdr{
+
+.pollBtnWrapper .btn.btnwhiteBrdr {
     background: transparent;
     color: #fff;
     border: 2px solid #fff;
@@ -1279,24 +1315,30 @@ button.btn.btnwhiteBrdr:hover {
     height: 42px;
     line-height: 30px;
 }
+
 .empActions .emSetting .ms-siteactions-imgspan {
     width: 26px;
     height: 27px;
 }
+
 .empActions .emSetting .ms-siteactions-imgspan > .ms-core-menu-buttonIcon {
     top: 0 !important;
     left: 0 !important;
-    content:  url('../images/home/IconSetting.svg');
+    content: url('../images/home/IconSetting.svg');
     width: 27px;
     height: 27px;
 }
-.empActions .emSetting .ms-welcome-hover,.empActions .emSetting .ms-siteactions-hover {
+
+.empActions .emSetting .ms-welcome-hover,
+.empActions .emSetting .ms-siteactions-hover {
     background: unset !important;
     border-left: 0px solid transparent;
 }
-.employeeDetails .empActions .emSetting .dropdown .btn-secondary{
-        min-width: unset;
+
+.employeeDetails .empActions .emSetting .dropdown .btn-secondary {
+    min-width: unset;
 }
+
 .employeeDetails .empActions .empImg {
     padding: 0 50px;
 }
@@ -1308,7 +1350,7 @@ button.btn.btnwhiteBrdr:hover {
     height: 48px;
 }
 
-.serviceListItem  {
+.serviceListItem {
     min-height: 180px;
     margin-bottom: 22px;
     background: #fff;
@@ -1331,16 +1373,19 @@ button.btn.btnwhiteBrdr:hover {
     position: relative;
     overflow: hidden;
 }
+
 .serviceListItem:hover {
     border: 2px solid #06B490;
 }
+
 .serviceListItem > img {
     max-width: 55px;
     margin-bottom: 14px;
     margin-top: 15px;
 }
+
 .serviceListItem > h2 {
-        font-size: 16px;
+    font-size: 16px;
     margin: 0;
     color: #44677A;
     font-weight: normal;
@@ -1357,6 +1402,7 @@ button.btn.btnwhiteBrdr:hover {
     .customMenu .megamenu.sm-menu > .container > .row {
         width: 100%
     }
+
     .customMenu > .navbar > .container {
         width: 100vw;
         max-width: unset;
@@ -1365,36 +1411,41 @@ button.btn.btnwhiteBrdr:hover {
 
 /*-*/
 .evDetailsWrapper {
-  border-bottom: 1px solid #06b4901a;
-  padding: 25px 0;
-  margin-bottom: 40px;
+    border-bottom: 1px solid #06b4901a;
+    padding: 25px 0;
+    margin-bottom: 40px;
 }
+
 .evDetailsWrapper .evDetailsLocation {
-  padding-right: 25px;
-  color: #004a4d;
-  background: url(../images/eventLocIcon.png) right center no-repeat;
-  min-height: 25px;
+    padding-right: 25px;
+    color: #004a4d;
+    background: url(../images/eventLocIcon.png) right center no-repeat;
+    min-height: 25px;
 }
+
 .evDetailsWrapper .evDetailsAddTocal {
-  padding-right: 35px;
-  color: #004a4d;
-  background: url(../images/eventCalIcon.png) right center no-repeat;
-  min-height: 25px;
-  display: block;
+    padding-right: 35px;
+    color: #004a4d;
+    background: url(../images/eventCalIcon.png) right center no-repeat;
+    min-height: 25px;
+    display: block;
 }
+
 .evDetailsWrapper .evDetailsDate {
-  color: #32383d;
-  font-size: 14px;
+    color: #32383d;
+    font-size: 14px;
 }
+
 .evDetailsWrapper .evDetailsDate span {
-  color: #3fc298;
-  vertical-align: middle;
-  font-size: 14px;
+    color: #3fc298;
+    vertical-align: middle;
+    font-size: 14px;
 }
 
 .icon-picture:before {
     content: '\f03e ';
 }
+
 .serv-subfilter-wrapper > a {
     background: #1a8674;
     padding: 8px 15px;
@@ -1404,16 +1455,19 @@ button.btn.btnwhiteBrdr:hover {
     color: #fff;
     display: inline-block;
 }
+
 .serv-subfilter-wrapper > a:hover {
     background: #06b490;
 }
+
 .newsWrapper .NewsBox2 {
-        width: 100%;
+    width: 100%;
 }
 
 .flexRowWarp .flexRow {
     justify-content: right;
 }
+
 .flexRowWarp .flexRow .mainBox:not(:last-of-type) {
     margin-left: 23px;
 }
@@ -1431,51 +1485,61 @@ button.btn.btnwhiteBrdr:hover {
 
 /*=========== Sitemap css===========*/
 .toc-layout-main {
-  margin-top: 15px;
+    margin-top: 15px;
 }
+
 .toc-layout-main > ul.dfwp-list > li {
-  margin: 5px 0;
+    margin: 5px 0;
 }
+
 @media (min-width: 768px) {
-  .toc-layout-main > ul.dfwp-list > li {
-    width: 50%;
-    float: right;
-    list-style: none;
-  }
+    .toc-layout-main > ul.dfwp-list > li {
+        width: 50%;
+        float: right;
+        list-style: none;
+    }
 }
+
 .toc-layout-main > ul.dfwp-list > li.level-section > div.level-header .headertitle > a {
-  font-size: 16px;
-  font-weight: bold;
-  color: #004a4d;
+    font-size: 16px;
+    font-weight: bold;
+    color: #004a4d;
 }
+
 .toc-layout-main > ul.dfwp-list > li.level-section > .dfwp-list {
-  margin: 5px 25px 5px 0;
-  padding: 0 2px;
+    margin: 5px 25px 5px 0;
+    padding: 0 2px;
 }
+
 .toc-layout-main > ul.dfwp-list > li.level-section > .dfwp-list .dfwp-list {
     padding: 0;
 }
+
 .toc-layout-main > ul.dfwp-list > li.level-section > .dfwp-list li {
-  list-style-type: disc;
-  list-style-position: outside;
-  color: #006840;
-  line-height: 1.8;
+    list-style-type: disc;
+    list-style-position: outside;
+    color: #006840;
+    line-height: 1.8;
 }
+
 .toc-layout-main > ul.dfwp-list > li.level-section > .dfwp-list li .level-header .headertitle > a {
-  font-size: 14px;
-  font-weight: normal;
-  color: #34677D;
+    font-size: 14px;
+    font-weight: normal;
+    color: #34677D;
 }
+
 .toc-layout-main > ul.dfwp-list > li.level-section > .dfwp-list li .level-header .headertitle > a:hover {
-  color: #666;
+    color: #666;
 }
+
 .toc-layout-main > ul.dfwp-list .level2 {
-  margin-right: 20px;
-  color: #006840 !important;
+    margin-right: 20px;
+    color: #006840 !important;
 }
+
 .toc-layout-main > ul.dfwp-list .level3 {
-  margin-right: 20px;
-  color: #006840 !important;
+    margin-right: 20px;
+    color: #006840 !important;
 }
 
 
@@ -1483,134 +1547,158 @@ button.btn.btnwhiteBrdr:hover {
 /* searching */
 /*---Search Style--*/
 .ms-srch-hover-outerContainer {
-  display: none!important;
+    display: none !important;
 }
+
 .ms-srch-item {
-  width: 100%;
-  border-bottom: 1px rgba(170, 155, 100, 0.2) dashed;
-  padding: 30px;
-  background: #fff;
-  border-radius: 12px;
+    width: 100%;
+    border-bottom: 1px rgba(170, 155, 100, 0.2) dashed;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
 }
+
 .ms-srch-item:hover {
-  background: #ffffff;
-  border-color: #004a4d;
+    background: #ffffff;
+    border-color: #004a4d;
 }
+
 .ms-srch-item .ms-srch-item-link {
-  color: #006840;
+    color: #006840;
 }
+
 .ms-srch-item .ms-srch-item-highlightedText {
-  color: #004A4D;
+    color: #004A4D;
 }
+
 .ms-srch-item .ms-srch-item-path {
-  color: #0fbc99;
-  display: block;
+    color: #0fbc99;
+    display: block;
 }
+
 .ms-srch-item .ms-srch-ellipsis {
-  font-size: 1.5em;
-  margin-bottom: 15px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
 }
+
 .ms-srch-item .ms-srch-item-body {
-  line-height: 1.5;
+    line-height: 1.5;
 }
+
 .ms-srch-Paging a {
-  font-size:15px;
-  color: #fff !important;
-  background-color: #006840 !important;
-  padding: 6px 3px!important;
-  height: 28px!important;
-  min-width: 28px;
-  margin: 0 4px!important;
-  border: 1px solid #006840 !important;
-  /*margin-left: 0px!important;*/
-  text-align: center;
-  display: inline-block;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+    font-size: 15px;
+    color: #fff !important;
+    background-color: #006840 !important;
+    padding: 6px 3px !important;
+    height: 28px !important;
+    min-width: 28px;
+    margin: 0 4px !important;
+    border: 1px solid #006840 !important;
+    /*margin-left: 0px!important;*/
+    text-align: center;
+    display: inline-block;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
+
 .ms-srch-Paging a:hover {
-  background-color: #009b5f;
-  color: #fff;
+    background-color: #009b5f;
+    color: #fff;
 }
+
 .ms-srch-Paging a .fa {
-  font: normal normal normal 15px/14px FontAwesome;
+    font: normal normal normal 15px/14px FontAwesome;
 }
+
 .ms-srch-Paging #PagingImageLink a {
-  position: relative;
-  top: 7px;
+    position: relative;
+    top: 7px;
 }
+
 .ms-srch-Paging #PagingImageLink a .ms-promlink-button-image {
-  top: 3px;
-  left: 2px;
+    top: 3px;
+    left: 2px;
 }
+
 .ms-srch-Paging #PagingImageLink a#PageLinkPrev {
-  border-radius: 0!important;
-  margin: 0!important;
-  background: transparent none!important;
-  border: none!important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    background: transparent none !important;
+    border: none !important;
 }
+
 .ms-srch-Paging #PagingImageLink a#PageLinkPrev span {
-  display: none;
+    display: none;
 }
+
 .ms-srch-Paging #PagingImageLink a#PageLinkPrev:before {
-  content: '\f105';
-  font-size: 26px;
-  line-height: 16px;
-  font-family: "font-icons";
-  color: #006840;
+    content: '\f105';
+    font-size: 26px;
+    line-height: 16px;
+    font-family: "font-icons";
+    color: #006840;
 }
+
 .ms-srch-Paging #PagingImageLink a#PageLinkNext {
-  border-radius: 0!important;
-  margin: 0!important;
-  background: transparent none!important;
-  border: none!important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    background: transparent none !important;
+    border: none !important;
 }
+
 .ms-srch-Paging #PagingImageLink a#PageLinkNext span {
-  display: none;
+    display: none;
 }
+
 .ms-srch-Paging #PagingImageLink a#PageLinkNext:before {
-  content: '\f104';
-  font-size: 26px;
-  line-height: 16px;
-  color: #3fc298;
-  font-family: FontAwesome;
+    content: '\f104';
+    font-size: 26px;
+    line-height: 16px;
+    color: #3fc298;
+    font-family: FontAwesome;
 }
+
 .ms-srch-result #PagingLink a,
 .ms-srch-Paging #PagingSelf a {
-  background: #edf3f6 !important;
-  border: unset !important;
-  color: #6d7478 !important;
-  font-size: 16px;
-  font-family: "Roboto-Medium";
-  width: 40px;
-  height: 40px !important;
-  top: 7px;
-  border-radius: 5px;
+    background: #edf3f6 !important;
+    border: unset !important;
+    color: #6d7478 !important;
+    font-size: 16px;
+    font-family: "Roboto-Medium";
+    width: 40px;
+    height: 40px !important;
+    top: 7px;
+    border-radius: 5px;
 }
+
 .ms-srch-hover-title {
-  color: #AA9B64;
+    color: #AA9B64;
 }
+
 .ArticleContent img {
-  max-width: 100%;
+    max-width: 100%;
 }
+
 .loadingMask {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 99999;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
 }
+
 .loadingMask .loading {
-  top: 50%;
-  position: absolute;
-  width: 100%;
-  margin-top: -12px;
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    margin-top: -12px;
 }
+
 .ms-srch-result #PagingLink a {
     background: #3fc298 !important;
     color: #fff !important;
@@ -1619,91 +1707,111 @@ button.btn.btnwhiteBrdr:hover {
 
 
 /*----------------------------------------------------- end  ---------------------------------------*/
+.inHomeEventsCalInWrapper {
+    margin-top: 25px;
+}
+
 .inHomeEventsCalInWrapper table {
-  border: none!important;
-  width: 100%!important;
+    border: none !important;
+    width: 100% !important;
 }
+
 .inHomeEventsCalInWrapper table td {
-  background-color: #fff !important;
-  text-align: center!important;
-      font-size: 14px;
-  color: #666 !important;
-  padding: 7px 5px;
+    background-color: #fff !important;
+    text-align: center !important;
+    font-size: 14px;
+    color: #666 !important;
+    padding: 7px 5px;
 }
+
 .inHomeEventsCalInWrapper table td * {
-  color: #32383d!important;
-  font-size: 14px;
-  font-family: "swissraMedium";
+    color: #32383d !important;
+    font-size: 14px;
+    font-family: "swissraMedium";
 }
+
 .inHomeEventsCalInWrapper table td.inHomeEventsCalColor-1,
 .inHomeEventsCalInWrapper table td.Day-event {
-  background-color: #DB0505 !important;
-  border: 1px solid #fff !important;
+    background-color: #DB0505 !important;
+    border: 1px solid #fff !important;
 }
+
 .inHomeEventsCalInWrapper table td.inHomeEventsCalColor-1 a,
 .inHomeEventsCalInWrapper table td.Day-event a {
-  color: #fff !important;
-  display: block;
+    color: #fff !important;
+    display: block;
 }
+
 .inHomeEventsCalInWrapper table td.inHomeEventsCalColor-2,
 .inHomeEventsCalInWrapper table td.Day-event2 {
-  background-color: #006840 !important;
-  border: 1px solid #fff !important;
+    background-color: #006840 !important;
+    border: 1px solid #fff !important;
 }
+
 .inHomeEventsCalInWrapper table td.inHomeEventsCalColor-2 a,
 .inHomeEventsCalInWrapper table td.Day-event2 a {
-  color: #fff !important;
-  display: block;
+    color: #fff !important;
+    display: block;
 }
+
 .inHomeEventsCalInWrapper table td.inHomeEventsCalColor-3,
 .inHomeEventsCalInWrapper table td.Day-event3 {
-  background-color: #AA9B64 !important;
-  border: 1px solid #fff !important;
+    background-color: #AA9B64 !important;
+    border: 1px solid #fff !important;
 }
+
 .inHomeEventsCalInWrapper table td.inHomeEventsCalColor-3 a,
 .inHomeEventsCalInWrapper table td.Day-event3 a {
-  color: #fff !important;
-  display: block;
+    color: #fff !important;
+    display: block;
 }
+
 .inHomeEventsCalInWrapper table th {
-  padding: 7px 5px;
-  text-align: center;
-  font-size: 15px;
-  background: #004a4d;
-  color: #fff !important;
+    padding: 7px 5px;
+    text-align: center;
+    font-size: 15px;
+    background: #004a4d;
+    color: #fff !important;
 }
+
 .inHomeEventsCalInWrapper table tr {
-  border-bottom: 1px solid #e6ebee;
+    border-bottom: 1px solid #e6ebee;
 }
+
 .inHomeEventsCalInWrapper table tr table tr {
-  border-bottom: none;
+    border-bottom: none;
 }
+
 .inHomeEventsCalGuideItem {
-  color: #818285;
-  font-size: 14px;
-  white-space: nowrap;
-  margin-top: 25px;
-  display: inline-block;
-  padding-right: 15px;
+    color: #818285;
+    font-size: 14px;
+    white-space: nowrap;
+    margin-top: 25px;
+    display: inline-block;
+    padding-right: 15px;
 }
+
 .inHomeEventsCalGuideItem:first-of-type {
-  padding-right: 0;
+    padding-right: 0;
 }
+
 .inHomeEventsCalGuideItem [class^='inHomeEventsCalColor-'] {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  vertical-align: middle;
-  margin-right: 0;
-  margin-left: 10px;
-  border-radius: 4px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 0;
+    margin-left: 10px;
+    border-radius: 4px;
 }
+
 .inHomeEventsCalGuideItem [class^='inHomeEventsCalTxtColor-'] {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px;
-     margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-left: 5px;
 }
+
 .inHomeEventsCalInWrapper table tr:first-of-type td {
     color: red;
     font-size: 15px !important;
@@ -1712,241 +1820,263 @@ button.btn.btnwhiteBrdr:hover {
 }
 
 .inHomeEventsCalColor-1 {
-  background-color: #DB0505 !important;
+    background-color: #DB0505 !important;
 }
+
 .inHomeEventsCalColor-2 {
-  background-color: #006840 !important;
+    background-color: #006840 !important;
 }
+
 .inHomeEventsCalColor-3 {
-  background-color: #06b490 !important;
+    background-color: #06b490 !important;
 }
 
 .breadCrumb .container {
     max-width: unset;
 }
+
 .breadCrumb .breadCrumbFunctions {
     font-size: 0;
 }
+
 .breadCrumb .breadCrumbFunctions .btnClick {
-   background: unset; 
+    background: unset;
 }
+
 .annsWrapper .employeeDetailsMain {
     margin-top: 40px;
 }
+
 .annsWrapper .empDetails .EmpTitle {
     padding: 7px 0 8px 0;
 }
+
 .annsWrapper .empDetails .EmpTitle img {
-	    margin-left: 10px;
+    margin-left: 10px;
     filter: invert(24%) sepia(21%) saturate(2128%) hue-rotate(137deg) brightness(91%) contrast(103%);
 }
 
 .annsWrapper .empDetails .empContact {
     justify-content: left;
 }
+
 a.readMore:visited {
-	color: #06B490;
+    color: #06B490;
 }
 
 /* employee  */
 
 .employeeDetailsMain {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #fff;
-  border-radius: 16px;
-  margin-bottom: 30px;
-  -webkit-box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
 }
 
 .employeeDetailsMain .notExists {
-  border-top: 1px solid #C2CCCA;
-  margin-top: 24px;
-  padding-top: 20px;
+    border-top: 1px solid #C2CCCA;
+    margin-top: 24px;
+    padding-top: 20px;
 }
 
 .employeeDetailsMain .notExists p {
-  margin: 0;
+    margin: 0;
 }
 
 .employeeDetailsMain .notExists .txtLink {
-  font-size: 16px;
-  line-height: 32px;
-  color: #34677D !important;
-  margin-right: 31px;
-  display: inline-block;
+    font-size: 16px;
+    line-height: 32px;
+    color: #34677D !important;
+    margin-right: 31px;
+    display: inline-block;
 }
 
 .employeeDetailsMain .empImg {
-  width: 356px;
-  overflow: hidden;
-  position: relative;
-  border-radius: 0px 16px 16px 0px;
+    width: 356px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0px 16px 16px 0px;
 }
 
 .employeeDetailsMain .empImg span {
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  background: #34677D;
-  bottom: 0;
-  right: 0;
-  height: 50px;
-  color: #fff;
-  border-radius: 0px 0px 16px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: #34677D;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    color: #fff;
+    border-radius: 0px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .employeeDetailsMain .empImg img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 0px 16px 16px 0px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 0px 16px 16px 0px;
 }
 
 .employeeDetailsMain .empTxt {
-  width: calc(100% - 356px);
-  padding: 32px 45px;
+    width: calc(100% - 356px);
+    padding: 32px 45px;
 }
 
 .employeeDetailsMain .empTxt .empExists {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .employeeDetailsMain .empTxt .empExists .downloadMain {
-  max-width: 300px;
-  width: 100%;
-  margin: unset;
+    max-width: 300px;
+    width: 100%;
+    margin: unset;
 }
+
 .employeeDetailsMain .empImg span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
+
 .employeeDetailsMain .empImg span {
-  font-size: 18px;
-  font-family: "swissraMedium";
-  margin: 0;
+    font-size: 18px;
+    font-family: "swissraMedium";
+    margin: 0;
 }
 
 .employeeDetailsMain .empImg span::after,
 .employeeDetailsMain .empImg .monthlyNews span::after {
-  position: absolute;
-  content: "";
+    position: absolute;
+    content: "";
 }
- .employeeDetailsMain .empTxt .empExists {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+
+.employeeDetailsMain .empTxt .empExists {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
+
 .empDetails .EmpTitle {
     font-size: 16px;
     color: #3fc298;
     font-family: "swissraBold";
 }
+
 .empDetails .empContact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
+
 .empDetails .empContact span.fontRopoto {
     font-family: "Roboto-Bold";
 }
+
 .employeeDetailsMain .empDetails .empContact span {
     color: #3fc298;
     font-size: 16px;
     padding-right: 15px;
 }
+
 .employeeDetailsMain .empDetails .empContact:first-of-type {
-        margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .modalEmpDetails .modal-content {
-  border-radius: 16px;
+    border-radius: 16px;
 }
 
 .modalEmpDetails .btn-close {
-  background-image: url(../images/sharedIcon/closePopEm.svg);
-  width: 20px;
-  height: 20px;
-  opacity: 1;
-  background-size: 20px;
-  padding: 0px 2px;
-  position: absolute;
-  left: 25px;
-  top: 25px;
+    background-image: url(../images/sharedIcon/closePopEm.svg);
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    background-size: 20px;
+    padding: 0px 2px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
 }
 
 .modalEmpDetails .btn-close:hover {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .modalEmpDetails .modal-dialog {
-  max-width: 1000px;
+    max-width: 1000px;
 }
 
 .modalEmpDetails .modal-body {
-  padding: 84px 48px;
+    padding: 84px 48px;
 }
 
 .modalEmpDetails .content {
-  border-radius: 16px;
-  padding: 35px 43px;
-  border: 1px solid #C0C7C9;
+    border-radius: 16px;
+    padding: 35px 43px;
+    border: 1px solid #C0C7C9;
 }
 
 .modalEmpDetails .content .empImg {
-  padding-left: 47px;
+    padding-left: 47px;
 }
 
 .modalEmpDetails .content .empImg img {
-  border-radius: 16px;
-  max-height: 242px;
+    border-radius: 16px;
+    max-height: 242px;
 }
 
 .modalEmpDetails .content .details {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .modalEmpDetails .content .downloadMain {
-  margin-top: 45px;
+    margin-top: 45px;
 }
-.modal-dialog-center, .modalSearch .modal-dialog, .modalEmpDetails .modal-dialog {
-  max-width: 800px;
-  min-height: calc(100vh - 60px);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  overflow: auto;
+
+.modal-dialog-center,
+.modalSearch .modal-dialog,
+.modalEmpDetails .modal-dialog {
+    max-width: 800px;
+    min-height: calc(100vh - 60px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: auto;
 }
 
 @media (max-width: 768px) {
-  .modal-dialog-center, .modalSearch .modal-dialog, .modalEmpDetails .modal-dialog {
-    min-height: calc(100vh - 20px);
-  }
+
+    .modal-dialog-center,
+    .modalSearch .modal-dialog,
+    .modalEmpDetails .modal-dialog {
+        min-height: calc(100vh - 20px);
+    }
 }
 
 #lvPager_Emps {
@@ -1960,18 +2090,1282 @@ a.readMore:visited {
     margin-top: 100px;
 }
 
-@media print {
-  .shareWrapper,
-  .homefooter-top,
-  .innerfooter-top,
-  .footerLinksWrapper,
-  .top-head,
-  .breadCrumb,
-  .pagetopfunctions-wrapper {
+.breadCrumbDetails .breadCrumbRoot {
     display: none;
-  }
-  .footer .footer-copyright-wrapper,
-  .ui-accordion-content {
-    display: block !important;
-  }
+}
+
+
+
+
+
+
+.votSection .pollBtnWrapper .btnWhit:hover {
+    background-color: #fff;
+    border: 0px solid #ababab;
+}
+
+.votSection .pollBtnWrapper .btn.btnwhiteBrdr:hover {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+@media print {
+
+    .shareWrapper,
+    .homefooter-top,
+    .innerfooter-top,
+    .footerLinksWrapper,
+    .top-head,
+    .breadCrumb,
+    .pagetopfunctions-wrapper {
+        display: none;
+    }
+
+    .footer .footer-copyright-wrapper,
+    .ui-accordion-content {
+        display: block !important;
+    }
+}
+
+
+
+
+.modalEmpDetails .modal-dialog {
+    max-width: 1000px;
+}
+
+
+.logoSideBar img {
+    max-width: 100%;
+}
+
+.contentPopupCR .titlePop,
+.contentPopup .titlePop {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+}
+
+.welcomePopupCR .contentPopupCR,
+.welcomePopupCR .warpBox,
+.welcomePopupCR {
+    position: unset !important;
+    width: unset !important;
+    height: unset !important;
+    background: unset !important;
+    left: unset !important;
+    top: unset !important;
+    right: unset !important;
+    z-index: unset !important;
+    transition: unset !important;
+    overflow: unset !important;
+    width: unset !important;
+    margin: unset !important;
+    /*   min-height: unset !important;*/
+    margin-top: unset !important;
+    border-radius: unset !important;
+    transition: unset !important;
+}
+
+
+
+
+
+
+
+
+
+
+.SurveyDetails .radio,
+.SurveyDetails .checkbox {
+    margin: 40px 0;
+}
+
+.SurveyDetails input[type="radio"] + label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-right: 35px;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #0b261f;
+}
+
+.SurveyDetails input[type="radio"] + label:before {
+    content: "";
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 20px;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    border: 1px solid #b9dfd3;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.SurveyDetails input[type="radio"] {
+    display: none !important;
+    display: inline;
+}
+
+.SurveyDetails input[type="radio"]:checked + label:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #b9dfd3;
+}
+
+.SurveyDetails input[type="checkbox"] + label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-right: 35px;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #0b261f;
+}
+
+.SurveyDetails input[type="checkbox"] + label:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin-left: 14px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    border: 1px solid #b9dfd3;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.SurveyDetails input[type="checkbox"] {
+    display: none !important;
+    display: inline;
+}
+
+.SurveyDetails input[type="checkbox"]:checked + label:after {
+    content: "\f00c";
+    font-size: 16px;
+    line-height: 20px;
+    color: #b9dfd3;
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    font-family: FontAwesome;
+}
+
+.SurveyDetails .tittel p {
+    font-size: 20px;
+    color: #004A4D;
+    margin-bottom: 20px;
+}
+
+.SurveyDetails textarea.form-control,
+.SurveyDetails textarea.form-control:hover,
+.SurveyDetails input[type="text"]:hover,
+.SurveyDetails input[type="text"] {
+    border: 1px solid #b9dfd3;
+}
+
+.SurveyDetails .form-control:focus {
+    box-shadow: unset;
+}
+
+.SurveyDetails .survey_wrapper > div {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #0fbc991a;
+}
+
+.SurveyDetails table tbody {
+    display: flex;
+}
+
+.annsWrapper .employeeDetailsMain .empTxt .empExists .empDetails {
+    width: 100%
+}
+
+.SurveyDetails input[type=button],
+.SurveyDetails input[type=reset],
+.SurveyDetails input[type=submit],
+.SurveyDetails button {
+    border-radius: 14px;
+    background-color: #004a4d;
+    color: #fff;
+    font-size: 16px;
+    font-family: "swissraNormal";
+    border: 1px solid #004a4d;
+}
+
+.SurveyDetails .btnsdiv.Acenter input[type=submit]:last-of-type {
+    background-color: #fff;
+    color: #004a4d;
+}
+
+.votSection h3 span,
+.votSection h3 {
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.votSection .singlePollResult {
+    margin-bottom: 10px
+}
+
+.votSection .singlePollResult .poll-percent {
+    color: #fff;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.votSection .pollbtns input {
+    background: #fff;
+    color: #10484c;
+    min-width: 120px;
+    height: 42px;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 0;
+    font-family: "swissraNormal";
+    line-height: normal;
+    margin: 14px 0 0 0;
+}
+
+.surveyResultRow {
+    margin: 40px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0fbc991a;
+}
+
+.surveyResultRow .surveyQuestionTitle {
+    font-size: 20px;
+    color: #004A4D;
+    margin-bottom: 20px;
+}
+
+.surveyResultRow .surveyOptionTitle,
+.surveyResultRow .responsesCount {
+    font-size: 18px;
+    color: #004A4D;
+    margin-bottom: 10px;
+}
+
+.surveyResultRow .surveyBarBase {
+    margin-bottom: 10px;
+}
+
+.surveyResultRow .surveyBarBase div {
+    height: 10px !important;
+    border-radius: 50px !important;
+    clear: both !important;
+}
+
+#s4-bodyContainer {
+    padding-bottom: 0;
+}
+
+.announceSec {
+    margin-bottom: 60px;
+}
+
+.announceSec h1 {
+    font-size: 25px;
+    font-family: "swissraMedium";
+    color: #004a4d;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.announceSec .contentdiv {
+    border-radius: 12px;
+    background: #fff;
+    padding: 35px;
+}
+
+.announceSec .contentdiv P {
+    font-size: 16px;
+    color: #32383D;
+    font-family: "swissraMedium";
+}
+
+.announceSec .headNIP {
+    text-align: center;
+    margin: 45px 0;
+}
+
+.announceSec img {
+    max-width: 100%
+}
+
+@media (min-width:1383px) and (max-width:1200px) {
+
+    .pollBtnWrapper .btn.btnwhiteBrdr,
+    .pollBtnWrapper .btn.btnWhit {
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .votSection .votInput {
+        bottom: 130px;
+    }
+
+}
+
+@media (min-width:1200px) and (max-width:1500px) {
+
+    .employeeDetails::after {
+        left: -28px;
+    }
+
+    .employeeDetails .empActions {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .employeeDetails .empActions .empImg {
+        padding: 0 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tempmBox {
+        flex-direction: column;
+    }
+
+    .sideBarLinks .SBLBox.linkSB {
+        padding-right: 0;
+
+    }
+
+    .sideBarLinks .SBLBox.linkSB img {
+        padding-bottom: 9px;
+    }
+
+    .sideBarLinks .SBLBox {
+        display: block;
+        height: auto;
+    }
+
+    .sideBarLinks .SBLBox.greenBox {
+        text-align: right;
+        text-align: center;
+    }
+
+    .sideBarLinks .SBLBox.greenBox span:last-of-type,
+    .sideBarLinks .SBLBox.greenBox div img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .sideBarLinks .SBLBox.degreeWeather div:last-of-type {
+        border-left: unset;
+        padding-left: unset;
+        border-top: 1px solid #e7eaf3;
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .sideBarLinks .SBLBox.font16 span {
+        font-size: 14px;
+        line-height: normal;
+        display: block;
+    }
+
+    .sideBarLinks .SBLBox.font16 img {
+        margin: 0 auto
+    }
+
+    .pollBtnWrapper .btn.btnwhiteBrdr,
+    .pollBtnWrapper .btn.btnWhit {
+        width: 100%;
+        margin: 0;
+    }
+
+    .pollBtnWrapper .btn.btnwhiteBrdr {
+        margin-top: 5px;
+    }
+
+    .votSection .votInput {
+        width: 83%;
+        bottom: 125px;
+    }
+}
+
+
+@media (max-width:1200px) {
+
+    .Layout .col-md-3-cum,
+    .Layout .col-md-9-cum {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+.welcomePopupCR > .modalEmpDetails {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.SurveysBanner > img {
+    max-width: 100%;
+}
+
+.offerDetails > .row {
+    display: block
+}
+
+@media (max-width:1281px) {
+    .downloadMain {
+        height: 45px;
+    }
+
+    .downloadMain img {
+        max-width: 24px;
+    }
+
+    .employeeDetails .empActions {
+        flex-wrap: wrap;
+    }
+
+    .downloadMain span {
+        font-size: 12px !important;
+    }
+
+    .EmpDectionary .EmpDekActions {
+        flex-wrap: wrap;
+    }
+
+    .employeeDetails .empActions .emSetting,
+    .employeeDetails .empActions .empMessage {
+        margin: 0;
+    }
+
+    .employeeDetails .empActions .emSetting .dropdown .btn-secondary {
+        min-width: 43px;
+    }
+
+    .EmpDectionary .EmpDekActions .inputSearch {
+        margin-bottom: 20px;
+    }
+
+    .employeeDetailsMain {
+
+        flex-direction: column;
+    }
+
+    .employeeDetailsMain .empImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .employeeDetailsMain .empImg img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .employeeDetailsMain .empTxt {
+        width: 100%;
+    }
+
+    .employeeDetailsMain .empTxt .empExists {
+        display: block;
+    }
+
+    .employeeDetailsMain .empTxt .empExists .downloadMain {
+        max-width: unset;
+        margin-top: 20px
+    }
+
+
+
+    .modalSearch .SearchCustom {
+        height: 60px;
+    }
+
+    .modalSearch .SearchCustom .searchSubmit {
+        width: 56px;
+    }
+
+    /*  end 1281  */
+
+
+
+}
+
+.EmpDectionary .EmpDekActions .inputSelect:first-of-type {
+    margin-right: 0px;
+}
+
+/*  menu style */
+@media (max-width:991px) {
+    .customMenu button.collapsed {
+        box-shadow: 0 3px 12px #0000001f;
+    }
+
+    .customMenu button.collapsed:hover {
+        border-color: rgb(255 255 255);
+        background: #ffffff;
+    }
+
+    .customMenu .dmenu .megamenu {
+        padding: 20px 0;
+    }
+
+    .customMenu .navbar-expand-lg > .container {
+        padding-top: 100px;
+    }
+
+    .customMenu .navbar-light .navbar-brand {
+        position: absolute;
+        top: -33px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #ctl00_g_082f73c1_c764_442b_8ecb_2b66ba44fa19 {
+        position: absolute;
+        left: 60px;
+        top: 104px;
+    }
+
+    .customMenu .nav-link.btn.btn-primary {
+        position: absolute;
+        left: -15px;
+        top: 105px;
+    }
+
+    .Layout .mainContent {
+        padding: 0 15px;
+    }
+
+    .breadCrumb .breadCrumbFunctions {
+        margin-top: 20px;
+    }
+
+    .breadCrumb .breadCrumbTtl {
+        font-size: 35px;
+    }
+
+    .breadCrumb .breadCrumbDetails a,
+    .breadCrumb .breadCrumbDetails .active {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    .breadCrumb .breadCrumbDetails a::after {
+        left: 6px;
+    }
+
+    body .serv-subfilter-wrapper > a {
+        margin-bottom: 10px
+    }
+
+    .photoalbumList > .col-xs-12.col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .EmpDectionary .EmpDekActions .leftSide {
+        flex-wrap: wrap;
+        justify-content: right;
+    }
+
+    .EmpDectionary .EmpDekActions .leftSide .inputSelect {
+        margin-bottom: 15px;
+    }
+
+    .EmpDectionary .EmpDekActions .inputSearch input,
+    .EmpDectionary .EmpDekActions .inputSearch {
+        width: 100%;
+    }
+
+    .newsWrapper .NewsBox2 {
+        margin-bottom: 20px;
+    }
+
+    /* new */
+    .breadCrumb {
+        width: 100%
+    }
+
+    .ServiceList .boxSerList .hiddenAction .startServ,
+    .ServiceList .boxSerList .hiddenAction .moreBtn {
+        min-width: auto;
+        font-size: 14px;
+        padding: 7px 12px;
+    }
+
+    /* end 991   */
+    .offersDiv .col-md-4.col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media(max-width:500px) {
+    .employeeDetails .empActions .empImg {
+        padding: 0 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .breadCrumb .breadCrumbTtl {
+        font-size: 26px;
+    }
+
+    .eventsItem {
+        background-size: contain;
+        padding-bottom: 70px;
+    }
+
+    .eventsItem .eventDetailsWrapper {
+        position: absolute;
+        bottom: 8px;
+        padding: 0 12px;
+    }
+
+    .eventsItem .eventDetailsWrapper a,
+    .eventsItem .eventDetailsWrapper span {
+        margin-bottom: 10px;
+        display: block
+    }
+
+    .eventsItem .eventdateSepartor {
+        display: flex;
+        height: 10px;
+        margin: 0;
+    }
+
+    .SurveyDetails table tbody {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .srchPanel .form-group {
+        display: block;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    .welcomePopupCR .contentPopupCR .warpBox .welcomeImg {
+        height: 180px;
+        object-fit: none;
+    }
+
+    .contentPopupCR .titlePop,
+    .contentPopup .titlePop {
+        font-size: 30px;
+    }
+
+    .welcomePopupCR .contentPopupCR .warpBox .styleBtn,
+    .welcomePopupCR .contentPopup .warpBox .styleBtn,
+    .welcomePopup .contentPopupCR .warpBox .styleBtn,
+    .welcomePopup .contentPopup .warpBox .styleBtn {
+        width: 40px;
+        height: 40px;
+        left: 10px;
+    }
+
+    .offerDetails .offDeText ul {
+        padding: 14px 20px;
+
+    }
+
+    .offerDetails .offDeText ul li .offerH4 {}
+
+    .offerDetails .offDeText ul li p {}
+
+    /*    end 500*/
+}
+
+.EmpDectionary .EmpDekActions .inputSearch input::placeholder {
+    font-size: 14px
+}
+
+.newsWrapper .NewsBox2 .NEmpText p {
+    word-break: break-all;
+}
+
+
+#js-listviewthead-WPQ1 th:nth-of-type(3) {
+    width: 20%
+}
+
+.annsWrapper .employeeDetailsMain .titleFont25,
+.annsWrapper .employeeDetailsMain .details {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: normal;
+}
+
+.annsWrapper .employeeDetailsMain .titleFont25 {
+    line-height: 1.2;
+}
+
+
+
+
+
+.modalEmpDetails .modal-body {
+    padding: 50px 20px;
+}
+
+.modalEmpDetails .content {
+    padding: 25px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.modalEmpDetails .content .empImg {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.modalEmpDetails .empDetails {
+    text-align: center;
+}
+
+.modalEmpDetails .empDetails.empContact,
+.modalEmpDetails .empDetails .empContact {
+    justify-content: center;
+}
+
+/**********************************************************************************************************/
+
+
+/*
+    width: 100%;
+    background-color: #004a4d;
+    width: 75%;
+    background-color: #e8a752;
+
+    width: 25%;
+    background-color: #06b490;
+
+
+width: 20%;
+    background-color: #518f91;
+
+
+    width: 10%;
+    background-color: #8befda;
+*/
+
+/*    font-family: "Roboto-Regular","swissraNormal";*/
+.employeeDetails .empActions .emSetting.empNotification .dropdown-menu {}
+
+.employeeDetails .empActions .emSetting.empNotification .dropdown-menu .dropdown-item {
+    white-space: break-spaces;
+    color: #10484c;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.empImg img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.departEmpBox {
+    padding-bottom: 15px;
+}
+
+.greenSection h3 {
+    line-height: 1.4;
+}
+
+.greenSection .titleFont22,
+.greenSection h3 {
+    padding-bottom: 0;
+}
+
+.greenSection img {
+    margin-top: 10px;
+}
+
+.departEmpBox:not(.greenSection) h2 {
+    height: 64px !important;
+}
+
+.greenSection .titleFont22:first-of-type,
+.departEmpBox h2,
+.departEmpBox h3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 60px;
+}
+
+.greenSection.greenSection .titleFont22:first-of-type {
+    height: 75px !important;
+    line-height: 1.4;
+}
+
+.sideBarLinks .SBLBox.font16 {
+    font-family: "Roboto-Medium";
+}
+
+.employeeDetails .empDetails .titleFont22 a {
+    font-size: 22px;
+    font-family: "swissraMedium";
+    color: #004A4D;
+}
+
+
+
+
+
+@media(max-width:1850px) {
+    .workCard2 {
+        width: 100% !important;
+    }
+
+    .workCard2::after {
+        left: 8% !important;
+    }
+
+    .col-lg-7 .workCard2 > div {
+        left: 20% !important;
+        top: 20px !important;
+
+    }
+
+    .col-lg-5 .workCard2 > div {
+        right: 5% !important;
+        top: 40px !important;
+    }
+
+}
+
+@media(max-width:1650px) {
+
+    .workCard2 > div h2:nth-of-type(2),
+    .workCard2 > div h2:first-of-type {
+        font-size: 14px !important;
+    }
+
+    .workCard2 > div h2:nth-of-type(3),
+    .workCard2 > div h2:last-of-type,
+    .workCard2 > div p {
+        font-size: 12px !important;
+    }
+
+    .col-lg-7 .workCard2 > div {
+        left: 20% !important;
+        top: 20px !important;
+
+    }
+
+    .col-lg-5 .workCard2 > div {
+        right: 5% !important;
+        top: 40px !important;
+    }
+
+    .includNumber .checkNum {
+        font-size: 14px;
+    }
+
+    .col-lg-5 .workCard2 {
+        margin-bottom: 45px;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .tableBox .actionTable .leftSide,
+    .tableBox .actionTable {
+        display: block;
+    }
+
+    .tableBox .actionTable .leftSide *,
+    .tableBox .actionTable .inputSearch {
+        margin-bottom: 5px;
+    }
+
+    .tableBox .actionTable .leftSide .inputDate .datepickerClass input {
+        width: 100px;
+    }
+
+    .col-lg-5 .workCard2::after {
+        left: 25% !important;
+        width: 75%;
+    }
+
+    .includNumber .numberInc {
+        margin-right: 2px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .col-lg-7 .workCard2 > div h2 {
+        font-size: 13px !important;
+    }
+
+    .col-lg-7 .workCard2 > div p {
+        font-size: 10px !important;
+    }
+
+    .col-lg-7 .workCard2 > div {
+        left: 20% !important;
+        top: 10px !important;
+
+    }
+}
+
+
+
+
+
+
+
+.boxDate span {
+    font-family: "Roboto-Regular", "swissraNormal"
+}
+
+
+
+
+
+
+.director-center .director img {
+    height: 300px
+}
+
+.departEmpBox img {
+    height: 237px
+}
+
+
+
+
+
+
+
+
+
+
+.employeeDetails .empActions .emSetting.empNotification .dropdown-menu {
+    width: 230px;
+    border-radius: 8px;
+    border: unset;
+    box-shadow: 0 2px 25px #0000001f;
+}
+
+.employeeDetails .empActions .emSetting.empNotification .dropdown-menu .dropdown-item {
+    border-radius: 8px;
+}
+
+.annsWrapper .employeeDetailsMain .titleFont25,
+.annsWrapper .employeeDetailsMain .details {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: normal;
+}
+
+.annsWrapper .employeeDetailsMain .titleFont25 {
+    line-height: 1.2;
+}
+
+.employeeDetailsMain .empImg img {
+    height: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+.inputSearch input::placeholder {
+    font-size: 13px
+}
+
+.customMenu .dropdown-item {
+    font-size: 11px;
+}
+
+
+.customMenu .navbar-light .navbar-nav .nav-link {
+    font-size: 11px;
+    margin-left: 11px;
+}
+
+.customMenu .nav-link.btn.btn-primary {
+    margin-right: 10px !important;
+
+}
+
+.customMenu .nav-link.btn.btn-primary,
+.customMenu .topLnk.lang {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    min-width: 35px;
+    margin: 0;
+}
+
+.tableBox .actionTable .leftSide .butSrarch {
+    font-size: 13px;
+    padding: 9px 17px;
+    min-width: unset;
+}
+
+.tableBox .actionTable .leftSide .inputSelect label {
+    padding-left: 30px;
+}
+
+
+.tableBox .actionTable .leftSide .inputSelect {
+    padding-right: 18px;
+}
+
+.tableBox .actionTable .leftSide p {
+    padding: 0 15px;
+}
+
+.tableBox .actionTable .leftSide .inputDate .datepickerClass {
+    width: 90px;
+}
+
+
+.inHomeEventsCalInWrapper table td {
+    padding: 7px 5px;
+}
+
+
+.inHomeEventsCalWrapper .inHomeEventsCalSideInWrapper {
+    height: 330px;
+}
+
+.cardRow .col-lg-5 {
+    flex: 0 0 46.666667%;
+    max-width: 43.666667%;
+}
+
+.cardRow .col-lg-7 {
+    flex: 0 0 53.333333%;
+    max-width: 53.333333%;
+}
+
+.includNumber {
+    padding: 31px 0 20px;
+}
+
+.pollBtnWrapper .btn.btnwhiteBrdr,
+.pollBtnWrapper .btn.btnWhit {
+    font-size: 12px !important;
+    width: 46% !important;
+    margin: 0;
+}
+
+.sideBarLinks .SBLBox .font16Withcolor,
+.sideBarLinks .SBLBox.font16 p span,
+.sideBarLinks .SBLBox.linkSB h5 {
+    font-size: 10px;
+}
+
+
+.annsWrapper .employeeDetailsMain {
+    margin-top: 40px;
+    /*    height: 231px;*/
+}
+
+
+
+.datepicker {
+    padding: 10px;
+    font-size: 14px;
+    border: unset;
+    border-radius: 4px;
+    box-shadow: 0 2px 25px #0000001f;
+    color: #00323C;
+    text-align: center;
+    font-family: "Roboto-Regular", "swissraNormal";
+}
+
+
+.datepicker td {
+    padding: 3px 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.datepicker td:hover {
+    background: #f6f6f6;
+    border-radius: 2px;
+}
+
+.newsWrapper .NewsBox2 .NEmpText p {
+    word-break: break-word;
+}
+
+.breadCrumb .breadCrumbTtl {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+@media(min-width:1200px) {
+
+    .EmpDectionary .form-select,
+    .EmpDectionary select {
+        width: 180px;
+    }
+}
+
+
+.eventsItem .eventdate {
+        font-family: "Roboto-Regular" , "swissraNormal";
+        padding-right: 35px;
+        background: transparent url(http://40.88.151.196:2000/Style%20Library/en-us/styles/images/home/calendar.svg) center center no-repeat;
+        background-position: right;
+}
+.eventsItem .eventdate {
+    font-family: "Roboto-Regular", "swissraNormal";
+}
+
+.eventsItem {
+    padding: 30px 60px 50px;
+}
+
+.eventsItem h3 {
+    margin: 30px 0;
+    font-weight: bold
+}
+
+.eventsItem .eventDetailsWrapper {
+    bottom: 18px;
+    left: -34px;
+
+
+}
+.sideBarLinks .SBLBox span {
+    font-family: "Roboto-Regular", "swissraNormal";
+}
+@media(max-width:767px) {
+
+    .eventsItem {
+        padding: 20px 20px 80px 20px;
+    }
+
+    .eventsItem .eventDetailsWrapper {
+        bottom: 18px;
+        left: -5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.eventsItem .eventdate {
+        font-family: "Roboto-Regular";
+        padding-left: 35px;
+        background: transparent url(http://40.88.151.196:2000/Style%20Library/en-us/styles/images/home/calendar.svg) center center no-repeat;
+        background-position: left;
+}
+.eventsItem .eventdate {
+    font-family: "Roboto-Regular", "swissraNormal";
+}
+
+.eventsItem {
+    padding: 30px 60px 50px;
+}
+
+.eventsItem h3 {
+    margin: 30px 0;
+    font-weight: bold
+}
+
+.eventsItem .eventDetailsWrapper {
+    bottom: 18px;
+    left: 38px;
+}
+
+@media(max-width:767px) {
+
+    .eventsItem {
+        padding: 20px 20px 80px 20px;
+    }
+
+    .eventsItem .eventDetailsWrapper {
+        bottom: 18px;
+        left: 10px;
+    }
 }

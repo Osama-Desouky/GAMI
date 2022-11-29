@@ -2681,3 +2681,34 @@ footer {
   border-radius: unset !important;
   transition: unset !important;
 }
+
+.emSetting.empNotification {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.notFount {
+  text-align: center;
+    padding: 50px 0;
+}
+.notFount img {
+  max-height: 347px;
+  max-width: 100%;
+}
+.notFount .title {
+  font-size: 35px;
+  color: #004A4D;
+  font-weight: bold;
+  margin: 70px 0;
+}
+.notFount .NFBtn {
+  background: #06B490;
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 22px;
+  font-size: 18px;
+}
